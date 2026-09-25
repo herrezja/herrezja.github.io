@@ -1,0 +1,416 @@
+[
+  {
+    "paragraph_idx": 13,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image1.png",
+    "name": "image1.png",
+    "size": 323987,
+    "topic": "Topic #: 1 Configuration",
+    "question": "Question #: 2  Topic #: 1 (memo)",
+    "paragraph_text": "DRAG DROPDrag and drop the application service type to the best description."
+  },
+  {
+    "paragraph_idx": 118,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image5.png",
+    "name": "image5.png",
+    "size": 214369,
+    "topic": "Topic #: 1 Configuration",
+    "question": "Question #: 18 | Topic #: 1",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 262,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image8.png",
+    "name": "image8.png",
+    "size": 46517,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 1  Topic #: 2 (memo)",
+    "paragraph_text": "The CMDB Administrator has set-up two Dynamic Reconcilliation Rules within the ServiceNow Production Instance. The ‘Server’ class has a Dynamic Reconciliation Rule of largest value for the RAM field. The ‘Windows Server’ class has a Dynamic Reconciliation Rule of most reported for the RAM field.Given the above data in the Multisource CMDB, which value would be added to the CMDB for RAM for a ‘Server’ CI?"
+  },
+  {
+    "paragraph_idx": 286,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image10.png",
+    "name": "image10.png",
+    "size": 105741,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 5  Topic #: 2 (memo)",
+    "paragraph_text": "(The following identification rule for a Hardware CI class has been defined: )Two new CI records are imported into the hardware class of the CMDB:CI1: The name of this CI record matches the name of an existing CI record in the CMDB.CI2: The IP address of this CI record matches the IP address of an existing CI record in the CMDB.Which is correct based on the identification rule and the imported CI records?"
+  },
+  {
+    "paragraph_idx": 309,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image12.png",
+    "name": "image12.png",
+    "size": 99529,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 9  Topic #: 2 (memo) (memo2)",
+    "paragraph_text": "The Apache Web Server Identification Rule is configured with the following Criterion attributes:Class -Configuration file -Version -Yesterday, an Apache Web Server CI was discovered as part of Service Mapping. Today, the application owner upgraded Apache to a different version and reran discovery of the service.What will happen in the CMDB?"
+  },
+  {
+    "paragraph_idx": 327,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image14.png",
+    "name": "image14.png",
+    "size": 310269,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 12  Topic #: 2",
+    "paragraph_text": "DRAG DROP -ServiceNow provides a suite of CMDB management tools designed to effectively ingest, manage, and maintain CIs and relationships.Drag and drop the design architecture to its management tool.Some options may not apply."
+  },
+  {
+    "paragraph_idx": 336,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image16.png",
+    "name": "image16.png",
+    "size": 71658,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 14  Topic #: 2 (memo)",
+    "paragraph_text": "The following Reconciliation Rules were configured for ServiceNow, Altiris, and SCCM:Which are true? (Choose two.)"
+  },
+  {
+    "paragraph_idx": 357,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image17.png",
+    "name": "image17.png",
+    "size": 76748,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 17 | Topic #: 2",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 407,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image19.png",
+    "name": "image19.png",
+    "size": 15812,
+    "topic": "Topic #: 2 -  Topic #: 2, Ingest",
+    "question": "Question #: 25 | Topic #: 2 (memo)",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 463,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image21.png",
+    "name": "image21.png",
+    "size": 435679,
+    "topic": "Topic #: 3 -  Topic #: 3, Govern",
+    "question": "Question #: 2  Topic #: 3",
+    "paragraph_text": "DRAG DROP -Drag and drop the CMDB Health Dashboard metric to the description."
+  },
+  {
+    "paragraph_idx": 554,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image26.png",
+    "name": "image26.png",
+    "size": 312645,
+    "topic": "Topic #: 3 -  Topic #: 3, Govern",
+    "question": "Question #: 18  Topic #: 3 (memo)",
+    "paragraph_text": "DRAG DROP -A new ServiceNow customer is assembling a Configuration Management team to support their CMDB.Drag each role to its corresponding job description."
+  },
+  {
+    "paragraph_idx": 558,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image27.png",
+    "name": "image27.png",
+    "size": 292857,
+    "topic": "Topic #: 3 -  Topic #: 3, Govern",
+    "question": "Question #: 19  Topic #: 3",
+    "paragraph_text": "DRAG DROP -A CMDB Administrator seeks to understand the available tools for preventing, addressing, and remediating duplicate CIs.Drag and drop each feature with the corresponding outcome.Some options may not apply."
+  },
+  {
+    "paragraph_idx": 642,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image28.png",
+    "name": "image28.png",
+    "size": 166332,
+    "topic": "Topic #: 3 -  Topic #: 3, Govern",
+    "question": "Question #: 32 | Topic #: 3",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 647,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image29.png",
+    "name": "image29.png",
+    "size": 33632,
+    "topic": "Topic #: 3 -  Topic #: 3, Govern",
+    "question": "Question #: 33 | Topic #: 3",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 822,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image32.png",
+    "name": "image32.png",
+    "size": 358131,
+    "topic": "Topic #: 4 -  Topic #: 4, Insight",
+    "question": "Question #: 1  Topic #: 4",
+    "paragraph_text": "DRAG DROP -A manufacturing organization has implemented Incident Management in ServiceNow and wants to integrate additional products to enhance its functionality.Drag each ServiceNow product to the value it brings to supporting Incident Management."
+  },
+  {
+    "paragraph_idx": 1008,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image38.png",
+    "name": "image38.png",
+    "size": 267927,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question #: 5  Topic #: 5",
+    "paragraph_text": "DRAG DROP -Some steps need to be taken to transition from using different status attributes in the CMDB to life cycle objects.Drag and drop the objectives/attributes to the description."
+  },
+  {
+    "paragraph_idx": 1070,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image42.png",
+    "name": "image42.png",
+    "size": 188085,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question #: 16  Topic #: 5",
+    "paragraph_text": "DRAG DROP -A CMDB Owner starts on the CSDM journey and needs to become familiar with the CSDM domains.Drag the CMDB objects to the correct CSDM domains."
+  },
+  {
+    "paragraph_idx": 1105,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image43.png",
+    "name": "image43.png",
+    "size": 81046,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question #: 22  Topic #: 5",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1113,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image44.png",
+    "name": "image44.png",
+    "size": 107720,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question #: 23  Topic #: 5",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1115,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image45.png",
+    "name": "image45.png",
+    "size": 180870,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question #: 24  Topic #: 5",
+    "paragraph_text": "An Enterprise Architect needs to help the CMDB owner understand the benefits of CSDM. Drag the CSDM domains to the respective benefits."
+  },
+  {
+    "paragraph_idx": 1241,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image50.png",
+    "name": "image50.png",
+    "size": 123086,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 2 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1338,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image52.png",
+    "name": "image52.png",
+    "size": 124006,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 16 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1421,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image53.png",
+    "name": "image53.png",
+    "size": 97691,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 28 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1482,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image54.png",
+    "name": "image54.png",
+    "size": 52795,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 37 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1490,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image55.png",
+    "name": "image55.png",
+    "size": 179365,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 38 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1543,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image56.png",
+    "name": "image56.png",
+    "size": 162901,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 47 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1610,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image57.png",
+    "name": "image57.png",
+    "size": 124419,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 57 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1686,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image59.png",
+    "name": "image59.png",
+    "size": 72309,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 68 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 1692,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image60.png",
+    "name": "image60.png",
+    "size": 108937,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Question 69 of 75",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2036,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image70.png",
+    "name": "image70.png",
+    "size": 413827,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 16 (Drag and drop — Choose 2 options) Drag and drop the CMDB Health Dashboard metric to the description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2042,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image71.png",
+    "name": "image71.png",
+    "size": 234520,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 33 (Drag and drop) A CMDB Administrator seeks to understand the available tools for preventing, addressing, and remediating duplicate CIs. Drag and drop:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2048,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image72.png",
+    "name": "image72.png",
+    "size": 255044,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 43 (Drag and drop) Given a list of Service types in the platform. Drag the appropriate service to its definition:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2054,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image73.png",
+    "name": "image73.png",
+    "size": 262115,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 83 (Drag and drop) A CMDB Owner starts on the CSDM journey and needs to become familiar with the CSDM domains. Drag the CMDB objects to the correct CSDM domains:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2061,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image74.png",
+    "name": "image74.png",
+    "size": 397417,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 93 (Drag and drop) A manufacturing organization has implemented Incident Management in ServiceNow and wants to integrate additional products to enhance its functionality. Drag each ServiceNow product to the value it brings to supporting Incident Management:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2069,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image75.png",
+    "name": "image75.png",
+    "size": 399310,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 99 (Drag and drop) Drag and drop the CMDB Health Dashboard metric to the description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2076,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image76.png",
+    "name": "image76.png",
+    "size": 363653,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 106 (Drag and drop — dwukrotnie) Some steps need to be taken to transition from using different status attributes in the CMDB to life cycle objects. Drag and drop the objects/attributes to the description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2082,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image77.png",
+    "name": "image77.png",
+    "size": 267303,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 119 (Drag and drop) A new ServiceNow customer is assembling a Configuration Management team to support their CMDB. Drag each role to its corresponding job description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2090,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image78.png",
+    "name": "image78.png",
+    "size": 224752,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 150 (Drag and drop) Drag and drop the CMDB Health Dashboard metric to the description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2097,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image79.png",
+    "name": "image79.png",
+    "size": 237477,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 152 (Drag and drop) Drag and drop the CMDB Health Dashboard metric to the description:",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2149,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image80.png",
+    "name": "image80.png",
+    "size": 77143,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2160,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image81.png",
+    "name": "image81.png",
+    "size": 47357,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2162,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image82.png",
+    "name": "image82.png",
+    "size": 137032,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2164,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image83.png",
+    "name": "image83.png",
+    "size": 168324,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2165,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image84.png",
+    "name": "image84.png",
+    "size": 164880,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2243,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image85.png",
+    "name": "image85.png",
+    "size": 281100,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  },
+  {
+    "paragraph_idx": 2293,
+    "file": "C:\\Users\\anna\\Documents\\Codex\\2026-05-15\\files-mentioned-by-the-user-examtopics\\docx_images\\image86.png",
+    "name": "image86.png",
+    "size": 55821,
+    "topic": "Topic #: 5 -  Topic #: 5, CSDM Fundamentals",
+    "question": "Pytanie 154 (Strona 60 — Choose 1 option) Which is a purpose or requirement of CMDB Data Manager in ServiceNow?",
+    "paragraph_text": ""
+  }
+]
