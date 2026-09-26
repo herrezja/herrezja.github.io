@@ -604,11 +604,11 @@ tr.active {
 <script id="quiz-data" type="application/json">
 [
   {
-    "id": "review-05",
+    "id": "nq1-001",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "5",
-    "header": "Original question 5",
+    "number": "1",
+    "header": "Nightmare Questions 1 — question 1 (source exam question 5)",
     "question": "Within the CSDM framework, which specific CI Relationship Type describes the dependency when an Application Service (Parent) is mapped to the underlying Windows/Linux Server (Child)?",
     "options": [
       {
@@ -646,14 +646,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: Depends on::Used by.\n\nEXPERT EXPLANATION\nWithin the CSDM model, an Application Service is a logical construct that always Depends on the physical infrastructure supporting it, while that infrastructure is Used by the service above it. Phrasing the relationship as “the Application Service Depends on the Server” correctly captures this direction, with Depends on serving as the parent descriptor and Used by as the child descriptor.\n\nWHY OTHERS ARE WRONG\nOption 1: Runs on::Runs is reserved for software installations or running processes, such as “SQL Server.exe” Runs on “Windows Server”; since an Application Service is a logical container that doesn't literally execute on hardware, this relationship type isn't applicable here.\nOption 2: Consumes::Consumed by applies higher up the stack, for example a Business Application that Consumes an Application Service, rather than describing how a service relates to the infrastructure beneath it.\nOption 4: Connected to::Connected by is a generic, non-directional association used for CI links that don't imply dependency, so it fails to capture the logical dependency of a service on its hosting infrastructure.\n\nMEMORY TIP\nSoftware runs on hardware, while a service depends on it: for a running process, think “Runs on”; for an Application Service, think “Depends on”.\n\nSOURCES\nCI Relationships: https://www.servicenow.com/docs/bundle/zurich-servicenow-platform/page/product/configuration-management/concept/c_CIRelationships.html"
+    "explanation": "CORRECT ANSWER\nOption 3: Depends on::Used by.\n\nEXPERT EXPLANATION\nWithin the CSDM model, an Application Service is a logical construct that always Depends on the physical infrastructure supporting it, while that infrastructure is Used by the service above it. Phrasing the relationship as “the Application Service Depends on the Server” correctly captures this direction, with Depends on serving as the parent descriptor and Used by as the child descriptor.\n\nWHY OTHERS ARE WRONG\nOption 1: Runs on::Runs is reserved for software installations or running processes, such as “SQL Server.exe” Runs on “Windows Server”; since an Application Service is a logical container that doesn't literally execute on hardware, this relationship type isn't applicable here.\nOption 2: Consumes::Consumed by applies higher up the stack, for example a Business Application that Consumes an Application Service, rather than describing how a service relates to the infrastructure beneath it.\nOption 4: Connected to::Connected by is a generic, non-directional association used for CI links that don't imply dependency, so it fails to capture the logical dependency of a service on its hosting infrastructure.\n\nMEMORY TIP\nSoftware runs on hardware, while a service depends on it: for a running process, think “Runs on”; for an Application Service, think “Depends on”.\n\nSOURCES\nCI Relationships: https://www.servicenow.com/docs/bundle/zurich-servicenow-platform/page/product/configuration-management/concept/c_CIRelationships.html",
+    "sourceRecordId": "review-05",
+    "originalExamNumber": "5"
   },
   {
-    "id": "review-08",
+    "id": "nq1-002",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "8",
-    "header": "Original question 8",
+    "number": "2",
+    "header": "Nightmare Questions 1 — question 2 (source exam question 8)",
     "question": "A Platform Data Owner is looking to improve data quality using reconciliation rules across five discovery sources. The Data Owner recognizes that CMDB 360 / Multisource CMDB would be the ideal option for managing and monitoring these discovery sources, but the company doesn't currently hold the ITOM Discovery license that CMDB 360 / Multisource CMDB requires. What option does the Data Owner have in this situation?",
     "options": [
       {
@@ -685,14 +687,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled\nEXPERT EXPLANATION\nThe Identification and Reconciliation Engine (IRE) handles basic reconciliation across multiple data sources, such as Discovery or other integrations, regardless of whether CMDB 360/Multisource CMDB is enabled. This means the Data Owner can begin improving data quality across the five discovery sources using standard IRE reconciliation rules immediately, with no need to purchase the ITOM Discovery license, though the fuller CMDB 360 experience, including complete multisource history, still needs that license.\nWHY OTHERS ARE WRONG\nOption 1: It is not accurate that ITOM Discovery must be purchased to use multisource IRE rules; basic IRE reconciliation functions without it, and only the advanced CMDB 360 features require the license.\nOption 3: CMDB 360/Multisource cannot be used right away; it requires purchasing the ITOM Discovery license and activating its plugin before it becomes usable.\nMEMORY TIP\nIRE reconciliation works like the CMDB's basic spell-checker, running by default on any data source you feed it, while CMDB 360/Multisource is more like a premium grammar-and-style add-on that needs its own separate license before it can be switched on.\nSOURCES\nMultisource CMDB (Xanadu release docs): https://www.servicenow.com/docs/r/xanadu/servicenow- platform/configuration-management-database-cmdb/multisource-cmadb.html!? contentld=4LMCSPOWAjaJZCIVIBRARA (CMDB 360 and the ITOM Visibility entitlement requirement (ServiceNow Community) https. ww.servicenow.com/community/ito-forum/emdb-860-and-the-itom-visibilty-entitlement- requirement/m-p/3058053"
+    "explanation": "CORRECT ANSWER\nOption 2: The IRE reconciliation rules can use discovery sources regardless of CMDB 360 being enabled\nEXPERT EXPLANATION\nThe Identification and Reconciliation Engine (IRE) handles basic reconciliation across multiple data sources, such as Discovery or other integrations, regardless of whether CMDB 360/Multisource CMDB is enabled. This means the Data Owner can begin improving data quality across the five discovery sources using standard IRE reconciliation rules immediately, with no need to purchase the ITOM Discovery license, though the fuller CMDB 360 experience, including complete multisource history, still needs that license.\nWHY OTHERS ARE WRONG\nOption 1: It is not accurate that ITOM Discovery must be purchased to use multisource IRE rules; basic IRE reconciliation functions without it, and only the advanced CMDB 360 features require the license.\nOption 3: CMDB 360/Multisource cannot be used right away; it requires purchasing the ITOM Discovery license and activating its plugin before it becomes usable.\nMEMORY TIP\nIRE reconciliation works like the CMDB's basic spell-checker, running by default on any data source you feed it, while CMDB 360/Multisource is more like a premium grammar-and-style add-on that needs its own separate license before it can be switched on.\nSOURCES\nMultisource CMDB (Xanadu release docs): https://www.servicenow.com/docs/r/xanadu/servicenow- platform/configuration-management-database-cmdb/multisource-cmadb.html!? contentld=4LMCSPOWAjaJZCIVIBRARA (CMDB 360 and the ITOM Visibility entitlement requirement (ServiceNow Community) https. ww.servicenow.com/community/ito-forum/emdb-860-and-the-itom-visibilty-entitlement- requirement/m-p/3058053",
+    "sourceRecordId": "review-08",
+    "originalExamNumber": "8"
   },
   {
-    "id": "review-14",
+    "id": "nq1-003",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "14",
-    "header": "Original question 14",
+    "number": "3",
+    "header": "Nightmare Questions 1 — question 3 (source exam question 14)",
     "question": "A CMDB Administrator is putting together technical documentation for stakeholders that lists attributes, Identification and Reconciliation Engine (IRE) rules, and suggested relationships across several classes. What central location does the CMDB Administrator use to gather this information?",
     "options": [
       {
@@ -730,14 +734,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: CI Class Manager\nEXPERT EXPLANATION\nCI Class Manager serves as the central hub for collecting class-level technical detail, including attributes, IRE reconciliation rules, and suggested relationships. It presents the entire CMDB class hierarchy as a navigable tree so an administrator can move between classes with ease, and it exposes metadata such as mandatory or recommended fields and audit templates right within each class, sparing the need to switch to another module to view reconciliation rules or relationship models.\nWHY OTHERS ARE WRONG\nOption 1: CMDB Data Manager supports policy-driven CI lifecycle operations such as retiring or archiving records, rather than documenting class attributes, IRE rules, or relationships.\nOption 3: CI Identifiers refers to the identification rule criteria used to match and create CIs, one input that CI Class Manager surfaces, not a central documentation hub for a class in its own right\nOption 4: CMDB Workspace is the broader operational workspace for viewing and working with CIs and tasks, not the specific class-configuration hub that brings attributes, IRE rules, and relationships togetner.\nMEMORY TIP\nConsider CI Class Manager the blueprint library for every Ci class, holding attributes, rules, and relationship diagrams in a single place, while CMDB Workspace functions more like the job site where the day-to-day work happens."
+    "explanation": "CORRECT ANSWER\nOption 2: CI Class Manager\nEXPERT EXPLANATION\nCI Class Manager serves as the central hub for collecting class-level technical detail, including attributes, IRE reconciliation rules, and suggested relationships. It presents the entire CMDB class hierarchy as a navigable tree so an administrator can move between classes with ease, and it exposes metadata such as mandatory or recommended fields and audit templates right within each class, sparing the need to switch to another module to view reconciliation rules or relationship models.\nWHY OTHERS ARE WRONG\nOption 1: CMDB Data Manager supports policy-driven CI lifecycle operations such as retiring or archiving records, rather than documenting class attributes, IRE rules, or relationships.\nOption 3: CI Identifiers refers to the identification rule criteria used to match and create CIs, one input that CI Class Manager surfaces, not a central documentation hub for a class in its own right\nOption 4: CMDB Workspace is the broader operational workspace for viewing and working with CIs and tasks, not the specific class-configuration hub that brings attributes, IRE rules, and relationships togetner.\nMEMORY TIP\nConsider CI Class Manager the blueprint library for every Ci class, holding attributes, rules, and relationship diagrams in a single place, while CMDB Workspace functions more like the job site where the day-to-day work happens.",
+    "sourceRecordId": "review-14",
+    "originalExamNumber": "14"
   },
   {
-    "id": "review-15",
+    "id": "nq1-004",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "15",
-    "header": "Original question 15",
+    "number": "4",
+    "header": "Nightmare Questions 1 — question 4 (source exam question 15)",
     "question": "By default, the Identification and Reconciliation Engine (IRE) permits authorized sources to create new CIs. Which specific configuration lets an administrator block the Insert action for a particular discovery source?",
     "options": [
       {
@@ -775,14 +781,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: IRE Data Source Rule\nEXPERT EXPLANATION\nThe IRE Data Source Rule functions like a security guard stationed at the CMDB's door, deciding whether an incoming payload is even allowed in before any other rule gets a say. It's the only rule purpose-built to block record creation based on the source ID, for instance telling the CMDB that a source like \"Excel Import\" may only update existing records and must never insert new ones, and these rules are configured per CI class, so a source might be permitted to insert Handheld Devices while being blocked from inserting Linux Servers. Since it's part of the IRE, this control applies to any data lowing through the engine, including Discovery, Service Graph Connectors, and the Import Set API\nWHY OTHERS ARE WRONG\nOption 1: Static Reconciliation Rules govern only updates to attributes on CIs that already exist, if a CI doesn't yet exist there's nothing to reconcile against, so they're unable to block an initial insert.\nOption 2: Dynamic Reconciliation Rules are similarly limited to updates on existing records, and they're bypassed entirely when no matching CI yet exists.\nOption 4: Identification Rules only determine whether a matching CI already exists, and ifthe answer is 1, the default behavior isto insert, Identification Rules have no mechanism for saying \"no match, but don't create one anyway?\nMEMORY TIP\nThink of the IRE Data Source Rule as a locked mail slot with an approved-senders list: if a source isn't authorized to deliver new mail (Insert), its envelope is returned before anyone even opens it to check the address ((dentification Rule) against what's already on file\nSOURCES\nComponents installed with Identification and Reconciliation: https. ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management- database-cmab/t_lWidentAndReconciLntm!"
+    "explanation": "CORRECT ANSWER\nOption 3: IRE Data Source Rule\nEXPERT EXPLANATION\nThe IRE Data Source Rule functions like a security guard stationed at the CMDB's door, deciding whether an incoming payload is even allowed in before any other rule gets a say. It's the only rule purpose-built to block record creation based on the source ID, for instance telling the CMDB that a source like \"Excel Import\" may only update existing records and must never insert new ones, and these rules are configured per CI class, so a source might be permitted to insert Handheld Devices while being blocked from inserting Linux Servers. Since it's part of the IRE, this control applies to any data lowing through the engine, including Discovery, Service Graph Connectors, and the Import Set API\nWHY OTHERS ARE WRONG\nOption 1: Static Reconciliation Rules govern only updates to attributes on CIs that already exist, if a CI doesn't yet exist there's nothing to reconcile against, so they're unable to block an initial insert.\nOption 2: Dynamic Reconciliation Rules are similarly limited to updates on existing records, and they're bypassed entirely when no matching CI yet exists.\nOption 4: Identification Rules only determine whether a matching CI already exists, and ifthe answer is 1, the default behavior isto insert, Identification Rules have no mechanism for saying \"no match, but don't create one anyway?\nMEMORY TIP\nThink of the IRE Data Source Rule as a locked mail slot with an approved-senders list: if a source isn't authorized to deliver new mail (Insert), its envelope is returned before anyone even opens it to check the address ((dentification Rule) against what's already on file\nSOURCES\nComponents installed with Identification and Reconciliation: https. ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management- database-cmab/t_lWidentAndReconciLntm!",
+    "sourceRecordId": "review-15",
+    "originalExamNumber": "15"
   },
   {
-    "id": "review-16",
+    "id": "nq1-005",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "16",
-    "header": "Original question 16",
+    "number": "5",
+    "header": "Nightmare Questions 1 — question 5 (source exam question 16)",
     "question": "A Change Manager wants to streamline ITSM processes by having fields on the Change form auto-populate once a CI is selected. The Configuration Management team makes sure the Change Group field is populated for every managed CI. Given that, which base system field on the Change form gets automatically populated after a CI is selected?",
     "options": [
       {
@@ -820,14 +828,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Assignment Group\nEXPERT EXPLANATION\nServiceNow relies on a business rule that populates the Assignment Group field on the Change form using the CI's own Change Group value. When a CI is chosen on a Change request, the system reads the Change Group value stored on that CI record and copies it into the Assignment Group field, as long as Assignment Group and Assigned To are both currently empty, routing the change to the correct team while still leaving room for manual override\nWHY OTHERS ARE WRONG\nOption 1: Change Group Is the field on the CI record itself that provides the value; it's the source of the automation, not the field that ends up populated on the Change form.\nOption 3: Managed by Group is a separate ownership/support field on the CI, unrelated to this particular auto-population business rule.\nOption 4: Approval Group isn't driven by Ci selection at all; approvals are typically determined by the change model or approval policy rather than copied from the C's Change Group field\nMEMORY TIP\nPicture the CI's Change Group field as a forwarding label already stuck on the box: once the CI is selected on a Change record, that label's value gets copied directly into the Assignment Group field on the form"
+    "explanation": "CORRECT ANSWER\nOption 2: Assignment Group\nEXPERT EXPLANATION\nServiceNow relies on a business rule that populates the Assignment Group field on the Change form using the CI's own Change Group value. When a CI is chosen on a Change request, the system reads the Change Group value stored on that CI record and copies it into the Assignment Group field, as long as Assignment Group and Assigned To are both currently empty, routing the change to the correct team while still leaving room for manual override\nWHY OTHERS ARE WRONG\nOption 1: Change Group Is the field on the CI record itself that provides the value; it's the source of the automation, not the field that ends up populated on the Change form.\nOption 3: Managed by Group is a separate ownership/support field on the CI, unrelated to this particular auto-population business rule.\nOption 4: Approval Group isn't driven by Ci selection at all; approvals are typically determined by the change model or approval policy rather than copied from the C's Change Group field\nMEMORY TIP\nPicture the CI's Change Group field as a forwarding label already stuck on the box: once the CI is selected on a Change record, that label's value gets copied directly into the Assignment Group field on the form",
+    "sourceRecordId": "review-16",
+    "originalExamNumber": "16"
   },
   {
-    "id": "review-18",
+    "id": "nq1-006",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "18",
-    "header": "Original question 18",
+    "number": "6",
+    "header": "Nightmare Questions 1 — question 6 (source exam question 18)",
     "question": "You're working through a de-duplication task involving two Database Instance CIs.\n\n• CI-A (Master): Discovered by ServiceNow Discovery; it has no active tickets associated with it.\n• CI-B (Duplicate): Created manually. It is currently listed as the “Configuration Item” on an active P1 Incident.\n\nAfter launching the Duplicate CI Remediation Wizard, you choose CI-A as the Master and carefully merge both the attribute data and the CMDB relationships. However, the “Related Items” step is skipped (all checkboxes are left cleared/unselected). You set CI-B's action to Delete and complete the wizard.\n\nWhat happens to the P1 Incident record as a result?",
     "options": [
       {
@@ -871,14 +881,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: The Incident is automatically updated to point to CI-A because the system detects the merge.\nEXPERT EXPLANATION\nServiceNow’s Duplicate CI Remediation process gives incident and Problem tasks special, largely automatic handling that is distinct from how other \"Related Items\" are treated. Per official documentation, when a duplicate CI referenced by an Incident or Problem is deleted during remediation, \"the system merges the main CI in those tasks\" so they \"remain valid\" — the Pt incident's Configuration Item field is updated to point to CI-A, not cleared. This is different from Change Requests, which are genuinely state-dependent: a Change in \"New’ state gets its CI reference Updated to the main CI, while a Change that is not in \"New\" state has the CI reference removed from the record instead (this is where a \"field goes blank’ outcome legitimately occurs in ServiceNow's OOB behavior).\nWHY OTHERS ARE WRONG\nOption 2: This describes the actual OOB behavior for a non-New Change Request, not an Incident — applying itto a P1 Incident is the core error in the original question's key.\nOption 3: ServiceNow does not cascade-delete Task records when a referenced Clis deleted\nOption 4: The OOB reference field on Incident does not use a Restrict cascade rule that blocks CI deletion\nOption 5: The wizard does not change task state or spawn new incidents; it only updates or clears reference fields as documented above.\nMEMORY TIP\nRemember \"I-P-N* — Incident and Problem get Notified (auto-repointed to the surviving Ch; only a non-New Change gets its CI reference cleared out\nSOURCES\nDe-Duplication Tasks: nttps:/www.servicenow.com /docs/r/servicenow-platform/configuration- management-database-cmdb/de-duplication-tasks.html"
+    "explanation": "CORRECT ANSWER\nOption 1: The Incident is automatically updated to point to CI-A because the system detects the merge.\nEXPERT EXPLANATION\nServiceNow’s Duplicate CI Remediation process gives incident and Problem tasks special, largely automatic handling that is distinct from how other \"Related Items\" are treated. Per official documentation, when a duplicate CI referenced by an Incident or Problem is deleted during remediation, \"the system merges the main CI in those tasks\" so they \"remain valid\" — the Pt incident's Configuration Item field is updated to point to CI-A, not cleared. This is different from Change Requests, which are genuinely state-dependent: a Change in \"New’ state gets its CI reference Updated to the main CI, while a Change that is not in \"New\" state has the CI reference removed from the record instead (this is where a \"field goes blank’ outcome legitimately occurs in ServiceNow's OOB behavior).\nWHY OTHERS ARE WRONG\nOption 2: This describes the actual OOB behavior for a non-New Change Request, not an Incident — applying itto a P1 Incident is the core error in the original question's key.\nOption 3: ServiceNow does not cascade-delete Task records when a referenced Clis deleted\nOption 4: The OOB reference field on Incident does not use a Restrict cascade rule that blocks CI deletion\nOption 5: The wizard does not change task state or spawn new incidents; it only updates or clears reference fields as documented above.\nMEMORY TIP\nRemember \"I-P-N* — Incident and Problem get Notified (auto-repointed to the surviving Ch; only a non-New Change gets its CI reference cleared out\nSOURCES\nDe-Duplication Tasks: nttps:/www.servicenow.com /docs/r/servicenow-platform/configuration- management-database-cmdb/de-duplication-tasks.html",
+    "sourceRecordId": "review-18",
+    "originalExamNumber": "18"
   },
   {
-    "id": "review-20",
+    "id": "nq1-007",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "20",
-    "header": "Original question 20",
+    "number": "7",
+    "header": "Nightmare Questions 1 — question 7 (source exam question 20)",
     "question": "During the CSDM “Fly” stage, the organization concentrates on mapping Business Capabilities to understand strategic needs. Which specific role holds primary responsibility for defining and managing this capability hierarchy?",
     "options": [
       {
@@ -916,14 +928,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 4: Enterprise Architect\nEXPERT EXPLANATION\nBusiness Capability Mapping is a strategic, enterprise-wide artifact that connects what the business {does to the technology that supports it. Ownership of defining and maintaining that capability hierarchy is an Enterprise (or Business) Architecture responsibility, not a day-to-day operational one. \"Crawl- Walk-Run-Fly\" is a popular informal maturity metaphor used across CSDM training material to describe growing scope from infrastructure through services to business alignment and strategy, its a useful mental model but is not a role-assignment table published verbatim in ServiceNow's official CSDM documentation, soit should not be over-relied upon as strict doctrine for exam questions worded differenti\nWHY OTHERS ARE WRONG\nOption 1: Service Owner is accountable for Service Offerings and their SLAS at the consumption/Run level, not the strategic capability map.\nOption 2: CMDB Administrator focuses on the accuracy of foundational/intrastructure CI data, not strategic capability taxonomy.\nOption 3: Application Owner is accountable for a specific Business Application's health and lifecycle, not the enterprise capability hierarchy.\nMEMORY TIP\nBusiness Capabilities describe strategy, or ‘what we do as a business’ and strategy-level ownership belongs to the Enterprise Architect; everyone else in the option list (Service Owner, CMDB Admin, Application Owner) owns something more operational and concrete underneath that strategic layer."
+    "explanation": "CORRECT ANSWER\nOption 4: Enterprise Architect\nEXPERT EXPLANATION\nBusiness Capability Mapping is a strategic, enterprise-wide artifact that connects what the business {does to the technology that supports it. Ownership of defining and maintaining that capability hierarchy is an Enterprise (or Business) Architecture responsibility, not a day-to-day operational one. \"Crawl- Walk-Run-Fly\" is a popular informal maturity metaphor used across CSDM training material to describe growing scope from infrastructure through services to business alignment and strategy, its a useful mental model but is not a role-assignment table published verbatim in ServiceNow's official CSDM documentation, soit should not be over-relied upon as strict doctrine for exam questions worded differenti\nWHY OTHERS ARE WRONG\nOption 1: Service Owner is accountable for Service Offerings and their SLAS at the consumption/Run level, not the strategic capability map.\nOption 2: CMDB Administrator focuses on the accuracy of foundational/intrastructure CI data, not strategic capability taxonomy.\nOption 3: Application Owner is accountable for a specific Business Application's health and lifecycle, not the enterprise capability hierarchy.\nMEMORY TIP\nBusiness Capabilities describe strategy, or ‘what we do as a business’ and strategy-level ownership belongs to the Enterprise Architect; everyone else in the option list (Service Owner, CMDB Admin, Application Owner) owns something more operational and concrete underneath that strategic layer.",
+    "sourceRecordId": "review-20",
+    "originalExamNumber": "20"
   },
   {
-    "id": "review-25",
+    "id": "nq1-008",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "25",
-    "header": "Original question 25",
+    "number": "8",
+    "header": "Nightmare Questions 1 — question 8 (source exam question 25)",
     "question": "Suppose your organization uses ServiceNow Impact and is conducting a CSDM Assessment — Total.\n\nA role on the customer side is described as:\n• Overall owner of the Now platform internally\n• Accountable for platform direction, including CSDM adoption\n• Partnering with the Platform Arch and other roles to prioritize changes, funding, and roadmap\n\nOn the customer side, who holds accountability for CMDB/CSDM direction?",
     "options": [
       {
@@ -961,14 +975,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: Platform Owner\nEXPERT EXPLANATION\nPer the official CSDM Assessment — Total accelerator documentation, the Platform Owner is responsible for the overall accountability of the ServiceNow platform, provides leadership and oversight, and is actively involved in the overarching governance of the platform, including CSDM adoption decisions.\nWHY OTHERS ARE WRONG\nOption 1: CI analyst/C! owner works at the CI/data level, not platform strategy.\nOption 2: Service Owner is accountable for one service, not the whole platform,\nOption 4: Platform Arch is the technical design role (often filled by ServiceNow or a partner) that executes the assessment, not the accountable business owner.\nMEMORY TIP\nPicture the Platform Owner as the landlord who bears ultimate accountability forthe building, while the Platform Architect is the contractor recommending renovation plans.\nSOURCES\nCSDM Assessment — Total (ServiceNow Impact accelerator}:\nhttps: www.servicenow.com/docs/t/2urich/impact/accelerator-and-_initiative-list/CSDM-assessment- totalntmi"
+    "explanation": "CORRECT ANSWER\nOption 3: Platform Owner\nEXPERT EXPLANATION\nPer the official CSDM Assessment — Total accelerator documentation, the Platform Owner is responsible for the overall accountability of the ServiceNow platform, provides leadership and oversight, and is actively involved in the overarching governance of the platform, including CSDM adoption decisions.\nWHY OTHERS ARE WRONG\nOption 1: CI analyst/C! owner works at the CI/data level, not platform strategy.\nOption 2: Service Owner is accountable for one service, not the whole platform,\nOption 4: Platform Arch is the technical design role (often filled by ServiceNow or a partner) that executes the assessment, not the accountable business owner.\nMEMORY TIP\nPicture the Platform Owner as the landlord who bears ultimate accountability forthe building, while the Platform Architect is the contractor recommending renovation plans.\nSOURCES\nCSDM Assessment — Total (ServiceNow Impact accelerator}:\nhttps: www.servicenow.com/docs/t/2urich/impact/accelerator-and-_initiative-list/CSDM-assessment- totalntmi",
+    "sourceRecordId": "review-25",
+    "originalExamNumber": "25"
   },
   {
-    "id": "review-26",
+    "id": "nq1-009",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "26",
-    "header": "Original question 26",
+    "number": "9",
+    "header": "Nightmare Questions 1 — question 9 (source exam question 26)",
     "question": "A CMDB Administrator is starting the process of populating the CMDB and must confirm that any data no longer useful or applicable gets removed. Which governance management tool accomplishes this?",
     "options": [
       {
@@ -1012,14 +1028,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: CMDB Data Manager\nEXPERT EXPLANATION\n(CMDB Data Manager serves as the governance tool built for bulk handling of CI lifecycle operations, covering deletion, archival, and retirement of data that has become obsolete or irrelevant. Through policy-driven frameworks, it identifies and clears out stale, orphaned, or irrelevant records, such as unowned computers older than a year or undiscovered containers, which is why it's the right choice for this cleanup governance task.\nWHY OTHERS ARE WRONG\nOption 1: CMDB and CSDM Data Foundations Dashboard centers on metrics, playbooks, and overall data quality assessment rather than actually removing data.\nOption 3: CMDB Health Dashboard tracks completeness, compliance, and correctness, but it doesn't offer any direct cleanup functionality.\nOption 4: CI Ciass Manager is used for creating and reclassifying CI classes plus individual deletions, not for bulk governance of obsolete data.\nOption 5: De-duplication Templates are almed specifically at removing duplicates, not the wider lifecycle cleanup work, like archival or retirement, that's described here.\nMEMORY TIP\nPicture CMDB Data Manager as the CMDB's cleanup crew, working a set schedule with clear rules to clear away stale, unused records, whereas the Health Dashboard acts more like a fitness tracker that simply reports now things look without doing any cleaning of its own,\nSOURCES\nCMDB Data Management (ServiceNow Docs): https:/www.servicenow.com/docs/t/servicenow- platform/configuration-management-database-cmdb/cmdb-data-management-landing.html"
+    "explanation": "CORRECT ANSWER\nOption 2: CMDB Data Manager\nEXPERT EXPLANATION\n(CMDB Data Manager serves as the governance tool built for bulk handling of CI lifecycle operations, covering deletion, archival, and retirement of data that has become obsolete or irrelevant. Through policy-driven frameworks, it identifies and clears out stale, orphaned, or irrelevant records, such as unowned computers older than a year or undiscovered containers, which is why it's the right choice for this cleanup governance task.\nWHY OTHERS ARE WRONG\nOption 1: CMDB and CSDM Data Foundations Dashboard centers on metrics, playbooks, and overall data quality assessment rather than actually removing data.\nOption 3: CMDB Health Dashboard tracks completeness, compliance, and correctness, but it doesn't offer any direct cleanup functionality.\nOption 4: CI Ciass Manager is used for creating and reclassifying CI classes plus individual deletions, not for bulk governance of obsolete data.\nOption 5: De-duplication Templates are almed specifically at removing duplicates, not the wider lifecycle cleanup work, like archival or retirement, that's described here.\nMEMORY TIP\nPicture CMDB Data Manager as the CMDB's cleanup crew, working a set schedule with clear rules to clear away stale, unused records, whereas the Health Dashboard acts more like a fitness tracker that simply reports now things look without doing any cleaning of its own,\nSOURCES\nCMDB Data Management (ServiceNow Docs): https:/www.servicenow.com/docs/t/servicenow- platform/configuration-management-database-cmdb/cmdb-data-management-landing.html",
+    "sourceRecordId": "review-26",
+    "originalExamNumber": "26"
   },
   {
-    "id": "review-28",
+    "id": "nq1-010",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "28",
-    "header": "Original question 28",
+    "number": "10",
+    "header": "Nightmare Questions 1 — question 10 (source exam question 28)",
     "question": "The CMDB Administrator group wants the CMDB Health Dashboard Compliance Scorecard to show meaningful results for server records that aren't on the latest patch. What needs to be configured to accomplish this?",
     "options": [
       {
@@ -1057,14 +1075,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: Certification Filter, Certification Template, Audit\nEXPERT EXPLANATION\nMeaningful results on the Compliance Scorecard require Data Certification to be configured, since Compliance measures adherence to defined policies rather than data completeness or freshness. A Certification Filter picks out the specific subset of CIs to evaluate, such as Windows Servers, a Certification Template sets the expected values or patch level those CIs should meet, and an Audit then performs the actual check, with pass or fall results feeding into the Compliance Scorecard.\nWHY OTHERS ARE WRONG\nOption 1: Technical Service Offerings, Dynamic CI Groups, and CMDB Groups are CSM and service- mapping constructs used for grouping and reporting, not the mechanism driving Compliance Scorecard results\nOption 2: Stale, Orphan, and Duplicate are metrics belonging to the Correctness Scorecard, not the certfication-driven Compliance Scorecard\nOption 4: Certification Policies, Data Filters, and Scheduled Jobs aren't the actual named components of the Data Certification feature; the real building blocks are Certification Filters, Certification Templates, and Aucits\nMEMORY TIP\nPicture Data Certification like a food safety inspection: the Filter picks which restaurants to inspect, the Template is the health code checklist, and the Audit is the actual inspection whose results feed the public compliance rating,\nSOURCES\nCertification filters (official — confirms Certification Filters, Certification Templates, and Certification Audits as distinct Data Certification components) https://wwwservicenow.com/docs/r/servicenow- platform/configuration-management-database-cmdb/c_CertificationFilters ntml \"New\" Data Certification experience in CMDB Workspace (community — historical ServiceNow product-management confirmation that Data Certification task results teed the Compliance KPI, an integration delivered starting with the Jakarta release and standard ever since} https” ww.servicenow.com/community/cmdb-articles/quot-new-quot-data-certification-data- certification-experience/ta-p/3387863"
+    "explanation": "CORRECT ANSWER\nOption 3: Certification Filter, Certification Template, Audit\nEXPERT EXPLANATION\nMeaningful results on the Compliance Scorecard require Data Certification to be configured, since Compliance measures adherence to defined policies rather than data completeness or freshness. A Certification Filter picks out the specific subset of CIs to evaluate, such as Windows Servers, a Certification Template sets the expected values or patch level those CIs should meet, and an Audit then performs the actual check, with pass or fall results feeding into the Compliance Scorecard.\nWHY OTHERS ARE WRONG\nOption 1: Technical Service Offerings, Dynamic CI Groups, and CMDB Groups are CSM and service- mapping constructs used for grouping and reporting, not the mechanism driving Compliance Scorecard results\nOption 2: Stale, Orphan, and Duplicate are metrics belonging to the Correctness Scorecard, not the certfication-driven Compliance Scorecard\nOption 4: Certification Policies, Data Filters, and Scheduled Jobs aren't the actual named components of the Data Certification feature; the real building blocks are Certification Filters, Certification Templates, and Aucits\nMEMORY TIP\nPicture Data Certification like a food safety inspection: the Filter picks which restaurants to inspect, the Template is the health code checklist, and the Audit is the actual inspection whose results feed the public compliance rating,\nSOURCES\nCertification filters (official — confirms Certification Filters, Certification Templates, and Certification Audits as distinct Data Certification components) https://wwwservicenow.com/docs/r/servicenow- platform/configuration-management-database-cmdb/c_CertificationFilters ntml \"New\" Data Certification experience in CMDB Workspace (community — historical ServiceNow product-management confirmation that Data Certification task results teed the Compliance KPI, an integration delivered starting with the Jakarta release and standard ever since} https” ww.servicenow.com/community/cmdb-articles/quot-new-quot-data-certification-data- certification-experience/ta-p/3387863",
+    "sourceRecordId": "review-28",
+    "originalExamNumber": "28"
   },
   {
-    "id": "review-29",
+    "id": "nq1-011",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "29",
-    "header": "Original question 29",
+    "number": "11",
+    "header": "Nightmare Questions 1 — question 11 (source exam question 29)",
     "question": "Which governance step keeps server attributes from ending up missing?",
     "options": [
       {
@@ -1096,14 +1116,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Make Owned by mandatory\nEXPERT EXPLANATION\nDesignating a field such as Owned by as required for the Server CI class, within CI Class Manager's Health settings, functions as a direct governance control: once a field is marked required, the CMDB Health Completeness KPI flags any server CI where that field is empty, and depending on how the class and forms are set up, records can be blocked or surfaced for correction until it's filed in. This is the standard ServiceNow governance approach for stopping an attribute from quietly going missing across a CI population, defining it as required at the class level makes gaps visible and actionable instead of invisible.\nWHY OTHERS ARE WRONG\nOption 2: Make Managed by mandatory governs a different attribute, the support/ownership group field, so it addresses missing Managed by data specifically rather than the Owned by attribute this question targets.\nOption 3: Set default Service Owner assigns a fallback value at the service level, which can mask a genuinely missing Owned by value on individual server CIs rather than prevent it, and it works on services, not directly on server attribute governance.\nMEMORY TIP\nMaking a field mandatory works like a form that refuses to submit until every required box has been filled in, it blocks incomplete records outright rather than just hoping someone eventually fills the gap.\nSOURCES\nSet a CI field to be mandatory: nttps://www-servicenow.com/docs/r/washingtondc/servicenow- platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.html!"
+    "explanation": "CORRECT ANSWER\nOption 1: Make Owned by mandatory\nEXPERT EXPLANATION\nDesignating a field such as Owned by as required for the Server CI class, within CI Class Manager's Health settings, functions as a direct governance control: once a field is marked required, the CMDB Health Completeness KPI flags any server CI where that field is empty, and depending on how the class and forms are set up, records can be blocked or surfaced for correction until it's filed in. This is the standard ServiceNow governance approach for stopping an attribute from quietly going missing across a CI population, defining it as required at the class level makes gaps visible and actionable instead of invisible.\nWHY OTHERS ARE WRONG\nOption 2: Make Managed by mandatory governs a different attribute, the support/ownership group field, so it addresses missing Managed by data specifically rather than the Owned by attribute this question targets.\nOption 3: Set default Service Owner assigns a fallback value at the service level, which can mask a genuinely missing Owned by value on individual server CIs rather than prevent it, and it works on services, not directly on server attribute governance.\nMEMORY TIP\nMaking a field mandatory works like a form that refuses to submit until every required box has been filled in, it blocks incomplete records outright rather than just hoping someone eventually fills the gap.\nSOURCES\nSet a CI field to be mandatory: nttps://www-servicenow.com/docs/r/washingtondc/servicenow- platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.html!",
+    "sourceRecordId": "review-29",
+    "originalExamNumber": "29"
   },
   {
-    "id": "review-30",
+    "id": "nq1-012",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "30",
-    "header": "Original question 30",
+    "number": "12",
+    "header": "Nightmare Questions 1 — question 12 (source exam question 30)",
     "question": "In ServiceNow, which of the following describes a purpose or requirement of CMDB Data Manager?",
     "options": [
       {
@@ -1135,14 +1157,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Automates the archival and deletion of records based on retention policies\nEXPERT EXPLANATION\nServiceNow’s CMDB Data Manager is a policy-driven framework built for bulk lifecycle operations on Configuration Items, and automating record archival and deletion according to retention policies is one of its central purposes. Administrators build policies for actions such as Archive, which retains CIs temporarily with a restore option, and Delete, which permanently removes CIs once their retention period has elapsed. These capabilities also allow exclusion lists and approvals, and they integrate with CMDB Workspace so lifecycle cleanup stays aligned with CSDM data quality goals.\nWHY OTHERS ARE WRONG\nOption 2: CMDB Data Manager has no stated capability for encrypting archived records; its archival unction is about moving records to separate storage and managing retention, not encryption.\nOption 3: Enforcing relationship rules between CIs falls to CSDM standards and tools such as the Identification and Reconciliation Engine, not to CMDB Data Manager.\nMEMORY TIP\nPicture CMDB Data Manager as the record-retention clerk deciding what gets boxed up or shredded, not the security guard who locks down the vault or the architect who lays out now the rooms connect\nSOURCES\nCMDB Data Management: https: www.servicenow.com /docs/t/servicenow-platform/configuration- management-database-cmdb/emdb-data-management-landing html"
+    "explanation": "CORRECT ANSWER\nOption 1: Automates the archival and deletion of records based on retention policies\nEXPERT EXPLANATION\nServiceNow’s CMDB Data Manager is a policy-driven framework built for bulk lifecycle operations on Configuration Items, and automating record archival and deletion according to retention policies is one of its central purposes. Administrators build policies for actions such as Archive, which retains CIs temporarily with a restore option, and Delete, which permanently removes CIs once their retention period has elapsed. These capabilities also allow exclusion lists and approvals, and they integrate with CMDB Workspace so lifecycle cleanup stays aligned with CSDM data quality goals.\nWHY OTHERS ARE WRONG\nOption 2: CMDB Data Manager has no stated capability for encrypting archived records; its archival unction is about moving records to separate storage and managing retention, not encryption.\nOption 3: Enforcing relationship rules between CIs falls to CSDM standards and tools such as the Identification and Reconciliation Engine, not to CMDB Data Manager.\nMEMORY TIP\nPicture CMDB Data Manager as the record-retention clerk deciding what gets boxed up or shredded, not the security guard who locks down the vault or the architect who lays out now the rooms connect\nSOURCES\nCMDB Data Management: https: www.servicenow.com /docs/t/servicenow-platform/configuration- management-database-cmdb/emdb-data-management-landing html",
+    "sourceRecordId": "review-30",
+    "originalExamNumber": "30"
   },
   {
-    "id": "review-31",
+    "id": "nq1-013",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "31",
-    "header": "Original question 31",
+    "number": "13",
+    "header": "Nightmare Questions 1 — question 13 (source exam question 31)",
     "question": "A CMDB Administrator wants to get rid of CMDB data that is no longer useful or relevant. Which governance management tool handles this?",
     "options": [
       {
@@ -1186,14 +1210,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: CMDB Data Manager\nEXPERT EXPLANATION\nCMDB Data Manager is the governance tool built specifically to manage the lifecycle of CMDB data, including policies for retiring, archiving, and deleting CIs and related records that are no longer useful cr applicable. Administrators scope policies to particular classes and conditions, and Data Manager enforces class-level retirement definitions before that data can be archived or deleted, giving organizations a controlled, auditable route to cleaning up stale CMDB content.\nWHY OTHERS ARE WRONG\nOption 1: De-duplication Templates are for merging duplicate CI records, not the broader task of removing outdated or no-longer-applicable data.\nOption 2: The CMDB & CSDM Data Foundations Dashboard surfaces health metrics and links out to remediation playbooks; it reports on data quality but is not the governance engine that actually performs removal.\nOption 4: The CMDB Health Dashboard displays the CMDB's health and compliance status, but it does not supply the policy engine needed to remove data\nOption 5: Ci Class Manager manages class definitions along with identification and reconciliation rules, not the data lifecycle policies used to remove records.\nMEMORY TIP\nCMDB Data Manager is like the records-retention office for your CMDB, other tools point out what's messy, but Data Manager is the one with the authority to actually retire, archive, or shred the paperwork.\nSOURCES\nWorking with CMDB Data Manager: htips:/www.servicenow.com/docs/t/xanadu/servicenow- platform/configuration-management-database-cmdb/cmab-data-management him!"
+    "explanation": "CORRECT ANSWER\nOption 3: CMDB Data Manager\nEXPERT EXPLANATION\nCMDB Data Manager is the governance tool built specifically to manage the lifecycle of CMDB data, including policies for retiring, archiving, and deleting CIs and related records that are no longer useful cr applicable. Administrators scope policies to particular classes and conditions, and Data Manager enforces class-level retirement definitions before that data can be archived or deleted, giving organizations a controlled, auditable route to cleaning up stale CMDB content.\nWHY OTHERS ARE WRONG\nOption 1: De-duplication Templates are for merging duplicate CI records, not the broader task of removing outdated or no-longer-applicable data.\nOption 2: The CMDB & CSDM Data Foundations Dashboard surfaces health metrics and links out to remediation playbooks; it reports on data quality but is not the governance engine that actually performs removal.\nOption 4: The CMDB Health Dashboard displays the CMDB's health and compliance status, but it does not supply the policy engine needed to remove data\nOption 5: Ci Class Manager manages class definitions along with identification and reconciliation rules, not the data lifecycle policies used to remove records.\nMEMORY TIP\nCMDB Data Manager is like the records-retention office for your CMDB, other tools point out what's messy, but Data Manager is the one with the authority to actually retire, archive, or shred the paperwork.\nSOURCES\nWorking with CMDB Data Manager: htips:/www.servicenow.com/docs/t/xanadu/servicenow- platform/configuration-management-database-cmdb/cmab-data-management him!",
+    "sourceRecordId": "review-31",
+    "originalExamNumber": "31"
   },
   {
-    "id": "review-32",
+    "id": "nq1-014",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "32",
-    "header": "Original question 32",
+    "number": "14",
+    "header": "Nightmare Questions 1 — question 14 (source exam question 32)",
     "question": "Once an administrator arrives at the “Select Main CI” step in the Duplicate CI Remediator wizard, the list of potential master records is split across two distinct tabs. What are these two tabs called?",
     "options": [
       {
@@ -1231,14 +1257,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Recommended and All\nEXPERT EXPLANATION\nIn the Select Main CI step of the Duplicate CI Remediator wizard, candidate master CIs are shown across two tabs, Recommended and All. The Recommended tab displays the system-suggested master CI based on scoring logic such as data completeness, discovery source, and recency, while the All tab lists every CI in the duplication set so the administrator can manually override the recommendation if needed,\nWHY OTHERS ARE WRONG\nOption 1: Primary and Secondary aren't labels used in the Duplicate CI Remediator Ul, ServiceNow instead uses Recommended to flag the preferred master.\nOption 3: Master and Duplicate aren't the tab names either, the wizard doesn't pre-label records as Master at this dtage since choosing the masters the entire point of the step.\nOption 4: High Confidence and Low Confidence describe internal scoring logic, but the UI doesn't expose confidence levels as tab names.\nMEMORY TIP\nThink of the two tabs like a hiring shortlist, Recommended is the small stack of top candidates the system has already vetted, while All is the full folder of every applicant in case you need to dig further."
+    "explanation": "CORRECT ANSWER\nOption 2: Recommended and All\nEXPERT EXPLANATION\nIn the Select Main CI step of the Duplicate CI Remediator wizard, candidate master CIs are shown across two tabs, Recommended and All. The Recommended tab displays the system-suggested master CI based on scoring logic such as data completeness, discovery source, and recency, while the All tab lists every CI in the duplication set so the administrator can manually override the recommendation if needed,\nWHY OTHERS ARE WRONG\nOption 1: Primary and Secondary aren't labels used in the Duplicate CI Remediator Ul, ServiceNow instead uses Recommended to flag the preferred master.\nOption 3: Master and Duplicate aren't the tab names either, the wizard doesn't pre-label records as Master at this dtage since choosing the masters the entire point of the step.\nOption 4: High Confidence and Low Confidence describe internal scoring logic, but the UI doesn't expose confidence levels as tab names.\nMEMORY TIP\nThink of the two tabs like a hiring shortlist, Recommended is the small stack of top candidates the system has already vetted, while All is the full folder of every applicant in case you need to dig further.",
+    "sourceRecordId": "review-32",
+    "originalExamNumber": "32"
   },
   {
-    "id": "review-33",
+    "id": "nq1-015",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "33",
-    "header": "Original question 33",
+    "number": "15",
+    "header": "Nightmare Questions 1 — question 15 (source exam question 33)",
     "question": "Within a CSDM assessment for Business Services, you need someone who:\n• Is accountable for the service itself and its outcomes\n• Decides which applications and technical services support that service\n• Uses CSDM views to understand how the service is modeled and how it performs\n\nWhich role owns the Service in CSDM?",
     "options": [
       {
@@ -1276,14 +1304,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Service Owner (Application/Business Service Owner)\nEXPERT EXPLANATION\nThe Service Owner (documented in ServiceNow’s role guidance as an Application Service Owner or Service Portfolio Owner depending on scope) is accountable for a specific service's outcomes and heaitn, decides which applications and technical services support it, and relies on CSDM views/dashboards to track how the service is modeled and performing,\nWHY OTHERS ARE WRONG\nOption 1: CI analyst/C! owner works at the individual CI/class level, not full-service accountability\nOption 3: Platform Owner is accountable for the whole platform, not one service.\nOption 4: Platform Arch designs the overall data model rather than owning any single service's outcomes.\nMEMORY TIP\nPicture the Service Owner as the captain of one ship, responsible for that ship's performance, while the Platform Owner captains the entire fleet.\nSOURCES\nCSDM Assessment — Total (ServiceNow Impact accelerator}:\nhttps: www.servicenow.com/docs/t/2urich/impact/accelerator-and-_initiative-list/CSDM-assessment- totalntmi"
+    "explanation": "CORRECT ANSWER\nOption 2: Service Owner (Application/Business Service Owner)\nEXPERT EXPLANATION\nThe Service Owner (documented in ServiceNow’s role guidance as an Application Service Owner or Service Portfolio Owner depending on scope) is accountable for a specific service's outcomes and heaitn, decides which applications and technical services support it, and relies on CSDM views/dashboards to track how the service is modeled and performing,\nWHY OTHERS ARE WRONG\nOption 1: CI analyst/C! owner works at the individual CI/class level, not full-service accountability\nOption 3: Platform Owner is accountable for the whole platform, not one service.\nOption 4: Platform Arch designs the overall data model rather than owning any single service's outcomes.\nMEMORY TIP\nPicture the Service Owner as the captain of one ship, responsible for that ship's performance, while the Platform Owner captains the entire fleet.\nSOURCES\nCSDM Assessment — Total (ServiceNow Impact accelerator}:\nhttps: www.servicenow.com/docs/t/2urich/impact/accelerator-and-_initiative-list/CSDM-assessment- totalntmi",
+    "sourceRecordId": "review-33",
+    "originalExamNumber": "33"
   },
   {
-    "id": "review-37",
+    "id": "nq1-016",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "37",
-    "header": "Original question 37",
+    "number": "16",
+    "header": "Nightmare Questions 1 — question 16 (source exam question 37)",
     "question": "What core purpose does CMDB 360 (Multisource CMDB) serve?",
     "options": [
       {
@@ -1321,14 +1351,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: Populate CMDB from multiple sources\nEXPERT EXPLANATION\nCMDB 360, also known as Multisource CMDB, is designed to let an organization populate and maintain CI data arriving simultaneously from numerous discovery and integration sources, such as Discovery, Service Graph Connectors, and manual entry, without any one source quietly overwriting another's input It preserves a full history of proposed values along with the source that supplied each one, in the cmdb_multisource_data table, so an administrator can trace why an attribute holds its current value and roll back changes from an unreliable source. This gives teams the confidence and traceability needed when multiple tools all claim authority over the same CI attributes.\nWHY OTHERS ARE WRONG\nOption 1: Ingesting via Service Graph is just one specific ingestion mechanism that can feed into CMDB 360, not the underlying reason CMDB 360 exists.\nOption 2: ingesting via Import Sets is another individual data-loading method, likewise just one of the many sources CMDB 360 tracks.\nOption 4: Identifying attributes describes the job the Identification and Reconciliation Engine performs during CI matching, not the purpose of CMDB 360 itself.\nMEMORY TIP\nThink of CMDB 360 as a security camera system that keeps a full recording history at every entrance toa building, it doesn't just let people in, it remembers which door (source) each person used and lets {you review or reverse any specific entry.\nSOURCES\n(CMDB 360/Multisource CMDB: https: “www servicenow.com/docs//xanadu/servicenow- platform/configuration-management-database-cmdb/multisource-cmadb.htm|"
+    "explanation": "CORRECT ANSWER\nOption 3: Populate CMDB from multiple sources\nEXPERT EXPLANATION\nCMDB 360, also known as Multisource CMDB, is designed to let an organization populate and maintain CI data arriving simultaneously from numerous discovery and integration sources, such as Discovery, Service Graph Connectors, and manual entry, without any one source quietly overwriting another's input It preserves a full history of proposed values along with the source that supplied each one, in the cmdb_multisource_data table, so an administrator can trace why an attribute holds its current value and roll back changes from an unreliable source. This gives teams the confidence and traceability needed when multiple tools all claim authority over the same CI attributes.\nWHY OTHERS ARE WRONG\nOption 1: Ingesting via Service Graph is just one specific ingestion mechanism that can feed into CMDB 360, not the underlying reason CMDB 360 exists.\nOption 2: ingesting via Import Sets is another individual data-loading method, likewise just one of the many sources CMDB 360 tracks.\nOption 4: Identifying attributes describes the job the Identification and Reconciliation Engine performs during CI matching, not the purpose of CMDB 360 itself.\nMEMORY TIP\nThink of CMDB 360 as a security camera system that keeps a full recording history at every entrance toa building, it doesn't just let people in, it remembers which door (source) each person used and lets {you review or reverse any specific entry.\nSOURCES\n(CMDB 360/Multisource CMDB: https: “www servicenow.com/docs//xanadu/servicenow- platform/configuration-management-database-cmdb/multisource-cmadb.htm|",
+    "sourceRecordId": "review-37",
+    "originalExamNumber": "37"
   },
   {
-    "id": "review-40",
+    "id": "nq1-017",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "40",
-    "header": "Original question 40",
+    "number": "17",
+    "header": "Nightmare Questions 1 — question 17 (source exam question 40)",
     "question": "A Service Owner is working in Unified Map to understand how a service is composed but needs to filter out irrelevant information. Which options can the Service Owner use from the filter panel? (Choose 2)",
     "options": [
       {
@@ -1368,14 +1400,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Discovery source\nOption 2: CI type\nEXPERT EXPLANATION\nThe Unified Map filter panel within CMDB Workspace allows a Service Owner to narrow a service view down to just the CIs that matter to them. CI type restricts the display to specific Configuration Item classes, such as servers or applications, while Discovery source shows only CIs originating from a particular source, such as ServiceNow Discovery or Integration Hub.\nWHY OTHERS ARE WRONG\nOption 3: The Unified Map filter panel's actual ownership-related category is named \"CI ownership\" not \"Managed by group\" While CI ownership Is populated from the same Managed By Group field discussed elsewhere in this exam, the filter panel does not expose a literal \"Managed by group\" option — only \"CI ownership\" — so this option's wording does not match a real fiter category\nOption 4: Business criticality similarly isn't a standard Unified Map filter panel option; it can be viewed elsewhere on CI records, but it isn't among the pane!’ filter categories.\nMEMORY TIP\nwithin the Unified Map Titer panel, CI type and Discovery source act like the two knobs on a radio you can actually turn, while Managed by group and Business criticality are dials that exist elsewhere in ServiceNow, just not on this particular radio.\nSOURCES\nUnified Map ~ configure fiers: https:/\\www.servicenow.com/docs/t/servicenow-platform/unified- map/unified-map-configure-filters.htm (CMDB Workspace — Unified Map (Washington DC release docs) https. ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management- <database-cmab/emdb-workspace-unified-map.him!"
+    "explanation": "CORRECT ANSWER\nOption 1: Discovery source\nOption 2: CI type\nEXPERT EXPLANATION\nThe Unified Map filter panel within CMDB Workspace allows a Service Owner to narrow a service view down to just the CIs that matter to them. CI type restricts the display to specific Configuration Item classes, such as servers or applications, while Discovery source shows only CIs originating from a particular source, such as ServiceNow Discovery or Integration Hub.\nWHY OTHERS ARE WRONG\nOption 3: The Unified Map filter panel's actual ownership-related category is named \"CI ownership\" not \"Managed by group\" While CI ownership Is populated from the same Managed By Group field discussed elsewhere in this exam, the filter panel does not expose a literal \"Managed by group\" option — only \"CI ownership\" — so this option's wording does not match a real fiter category\nOption 4: Business criticality similarly isn't a standard Unified Map filter panel option; it can be viewed elsewhere on CI records, but it isn't among the pane!’ filter categories.\nMEMORY TIP\nwithin the Unified Map Titer panel, CI type and Discovery source act like the two knobs on a radio you can actually turn, while Managed by group and Business criticality are dials that exist elsewhere in ServiceNow, just not on this particular radio.\nSOURCES\nUnified Map ~ configure fiers: https:/\\www.servicenow.com/docs/t/servicenow-platform/unified- map/unified-map-configure-filters.htm (CMDB Workspace — Unified Map (Washington DC release docs) https. ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management- <database-cmab/emdb-workspace-unified-map.him!",
+    "sourceRecordId": "review-40",
+    "originalExamNumber": "40"
   },
   {
-    "id": "review-45",
+    "id": "nq1-018",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "45",
-    "header": "Original question 45",
+    "number": "18",
+    "header": "Nightmare Questions 1 — question 18 (source exam question 45)",
     "question": "Configuration Management needs the CMDB to reflect an accurate device inventory. Which of the following are common use cases for Agent Client Collector (ACC)? (Choose 2 options)",
     "options": [
       {
@@ -1415,14 +1449,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Devices in secure environments\nOption 3: Devices that intermittently connect to the network\nEXPERT EXPLANATION\nAgent Client Collector (ACC) is built for endpoint inventory situations where traditional network-based Discovery falls short, especially devices in secure or locked-down environments and devices that connect to the network only intermittently. Since ACC runs locally on the device instead of needing inbound firewall access or shared credentials, it suits secure environments well, and because it can push data out through a MID Server whenever the device is online, it also covers laptops and similar endpoints that aren't always connected. This self-reporting approach keeps the CMDB's device inventory accurate even in cases where standard Discovery scans can't reach a given machine.\nWHY OTHERS ARE WRONG\nOption 1: Network devices sitting in the DMZ are usually inventoried through SNMP or REST-based Discovery via a proxy, rather than by installing the ACC agent directly on the device.\nOption 4: Data center servers are typically always-on and reachable, making them better suited to standard credentialed Discovery than to agent-based ACC collection.\nMEMORY TIP\nThink of ACC as a traveling reporter checking in whenever they catch a signal, ideal for laptops on the move or devices behind locked doors, whereas always-on data center servers are better covered by a stationary camera crew, standard Discovery, that never leaves its post.\nSOURCES\nAgent Client Collector Framework Use Case: https: //www-servicenow.com/docs/bundlle/zurich-it- operations-management/page/product/agent-client-collector/concept/acc-tramework-use-case html"
+    "explanation": "CORRECT ANSWER\nOption 2: Devices in secure environments\nOption 3: Devices that intermittently connect to the network\nEXPERT EXPLANATION\nAgent Client Collector (ACC) is built for endpoint inventory situations where traditional network-based Discovery falls short, especially devices in secure or locked-down environments and devices that connect to the network only intermittently. Since ACC runs locally on the device instead of needing inbound firewall access or shared credentials, it suits secure environments well, and because it can push data out through a MID Server whenever the device is online, it also covers laptops and similar endpoints that aren't always connected. This self-reporting approach keeps the CMDB's device inventory accurate even in cases where standard Discovery scans can't reach a given machine.\nWHY OTHERS ARE WRONG\nOption 1: Network devices sitting in the DMZ are usually inventoried through SNMP or REST-based Discovery via a proxy, rather than by installing the ACC agent directly on the device.\nOption 4: Data center servers are typically always-on and reachable, making them better suited to standard credentialed Discovery than to agent-based ACC collection.\nMEMORY TIP\nThink of ACC as a traveling reporter checking in whenever they catch a signal, ideal for laptops on the move or devices behind locked doors, whereas always-on data center servers are better covered by a stationary camera crew, standard Discovery, that never leaves its post.\nSOURCES\nAgent Client Collector Framework Use Case: https: //www-servicenow.com/docs/bundlle/zurich-it- operations-management/page/product/agent-client-collector/concept/acc-tramework-use-case html",
+    "sourceRecordId": "review-45",
+    "originalExamNumber": "45"
   },
   {
-    "id": "review-46",
+    "id": "nq1-019",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "46",
-    "header": "Original question 46",
+    "number": "19",
+    "header": "Nightmare Questions 1 — question 19 (source exam question 46)",
     "question": "Which of the following correctly describes the requirements and initial state for enabling the Multisource CMDB feature on a ServiceNow instance? [2 correct answers]",
     "options": [
       {
@@ -1462,14 +1498,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Must be activated on base systems.\nOption 2: Activate the Multisource CMDB by setting the property, glide.identification_engine.multisource_enabled, to true and installing the ITOM Discovery License plugin.\nEXPERT EXPLANATION\nThe Multisource CMDB keeps a source-of-truth history for every attribute, tracking what each discovery source has reported about a CI over time — powerful, but it adds to database storage requirements. Because of that storage and performance cost, ServiceNow leaves it dormant by default instead of enabling it out of the box on base systems. Turning it on takes two steps: toggling the glide.identification_engine.multisource_enabled system property so the Identification and Reconciliation Engine begins retaining source payload history, and installing the ITOM Discovery License plugin, which supplies the Multisource Report Builder and the views needed to see where sources like Discovery, SCCM, and Jamft agree or disagree.\nWHY OTHERS ARE WRONG\nOption 3: Were Multisource CMDB active by default, it would capture history for many customers who don't actually need it, driving unnecessary database growth, which is exactly why it remains off until an admin enables it.\nOption 4: Instaling the CMDB. CI Class Models plugin adds new classes and patterns to the CMDB rather than disabling any Multisource features.\nMEMORY TIP\nThink of Multisource CMDB like enabling a security camera's recording history, it stays off by default because storing every angle from every source takes up space, and you have to flip the switch and sign up for the storage plan before it starts keeping that history.\nSOURCES\nCMDB 360: https:/www.servicenow.com/docs/t/servicenow- platform/configuration-management- <database-cmab/muitisource-cmab html"
+    "explanation": "CORRECT ANSWER\nOption 1: Must be activated on base systems.\nOption 2: Activate the Multisource CMDB by setting the property, glide.identification_engine.multisource_enabled, to true and installing the ITOM Discovery License plugin.\nEXPERT EXPLANATION\nThe Multisource CMDB keeps a source-of-truth history for every attribute, tracking what each discovery source has reported about a CI over time — powerful, but it adds to database storage requirements. Because of that storage and performance cost, ServiceNow leaves it dormant by default instead of enabling it out of the box on base systems. Turning it on takes two steps: toggling the glide.identification_engine.multisource_enabled system property so the Identification and Reconciliation Engine begins retaining source payload history, and installing the ITOM Discovery License plugin, which supplies the Multisource Report Builder and the views needed to see where sources like Discovery, SCCM, and Jamft agree or disagree.\nWHY OTHERS ARE WRONG\nOption 3: Were Multisource CMDB active by default, it would capture history for many customers who don't actually need it, driving unnecessary database growth, which is exactly why it remains off until an admin enables it.\nOption 4: Instaling the CMDB. CI Class Models plugin adds new classes and patterns to the CMDB rather than disabling any Multisource features.\nMEMORY TIP\nThink of Multisource CMDB like enabling a security camera's recording history, it stays off by default because storing every angle from every source takes up space, and you have to flip the switch and sign up for the storage plan before it starts keeping that history.\nSOURCES\nCMDB 360: https:/www.servicenow.com/docs/t/servicenow- platform/configuration-management- <database-cmab/muitisource-cmab html",
+    "sourceRecordId": "review-46",
+    "originalExamNumber": "46"
   },
   {
-    "id": "review-54",
+    "id": "nq1-020",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "54",
-    "header": "Original question 54",
+    "number": "20",
+    "header": "Nightmare Questions 1 — question 20 (source exam question 54)",
     "question": "When architecting a new microservices-based platform within the ServiceNow CSDM framework, you need to map how data moves between different Business Applications. To accurately model the exchange of a particular data set (e.g., “Customer Profile”) between a “sending” application and a “receiving” application, which CSDM CI class must serve as the connector, related to each Business Application via a Uses relationship?",
     "options": [
       {
@@ -1507,14 +1545,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Information Object [cmdb_ci_information_object]\nEXPERT EXPLANATION\nThe Information Object is the CSDM Ci class that models the logical data set lowing between Business Applications, Both the sending and the receiving Business Application are related to the same Information Object (e.., \"Customer Profile’) via a Uses:Used By relationship, letting the CMDB show which applications produce or depend on a given type of data without needing a separate, dedicated \"exchange\" table.\nWHY OTHERS ARE WRONG\nOption 1: API Component [cmdb_ci_api_component] describes the technical interface/resource the ata passes through, not the conceptual data package itsett,\nOption 3: Request Item [sc_req_item] is a service-catalog fulfilment record, unrelated to application- o-application data modeling\nOption 4: Application Service {cmdb_ci_service_auto] is a technical service CI, not the logical data object being exchanged.\nMEMORY TIP\nPicture the Information Object as the labeled package traveling between two departments, while the API is merely the mail slot it passes through — without the label, no one would know what's actually being shipped. Both departments’ applications are related to that same package via \"Uses? not viaa special \"Produces/Consumes' link.\nSOURCES\nCommon Service Data Model — Design Domain\nhttps: ww.servicenow.com/docs/t/washingtondc/servicenow-platform/common-service-data- model-csdm/design-comain html"
+    "explanation": "CORRECT ANSWER\nOption 2: Information Object [cmdb_ci_information_object]\nEXPERT EXPLANATION\nThe Information Object is the CSDM Ci class that models the logical data set lowing between Business Applications, Both the sending and the receiving Business Application are related to the same Information Object (e.., \"Customer Profile’) via a Uses:Used By relationship, letting the CMDB show which applications produce or depend on a given type of data without needing a separate, dedicated \"exchange\" table.\nWHY OTHERS ARE WRONG\nOption 1: API Component [cmdb_ci_api_component] describes the technical interface/resource the ata passes through, not the conceptual data package itsett,\nOption 3: Request Item [sc_req_item] is a service-catalog fulfilment record, unrelated to application- o-application data modeling\nOption 4: Application Service {cmdb_ci_service_auto] is a technical service CI, not the logical data object being exchanged.\nMEMORY TIP\nPicture the Information Object as the labeled package traveling between two departments, while the API is merely the mail slot it passes through — without the label, no one would know what's actually being shipped. Both departments’ applications are related to that same package via \"Uses? not viaa special \"Produces/Consumes' link.\nSOURCES\nCommon Service Data Model — Design Domain\nhttps: ww.servicenow.com/docs/t/washingtondc/servicenow-platform/common-service-data- model-csdm/design-comain html",
+    "sourceRecordId": "review-54",
+    "originalExamNumber": "54"
   },
   {
-    "id": "review-55",
+    "id": "nq1-021",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "55",
-    "header": "Original question 55",
+    "number": "21",
+    "header": "Nightmare Questions 1 — question 21 (source exam question 55)",
     "question": "A company needs to determine the CSDM maturity level it requires, and various stakeholders have listed several use cases they anticipate over time. Which of these use cases depends on information objects?",
     "options": [
       {
@@ -1558,14 +1598,16 @@ tr.active {
     ],
     "documentAnswerSource": "review-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 4: The SecOps team wants to understand the operational risk in the Business Application context\nEXPERT EXPLANATION\nInformation Objects within CSDM model the data, such as PII, PI, or other technical data, that Business Applications consume or process, and mapping them out is what allows a team to assess the risk tied to that data. The SecOps team’s need to understand operational risk in the Business Application context relies directly on that information Object mapping, which is why this particular use case requires it, while most other use cases at lower CSDM maturity levels instead depend on simpler service, application, or asset relationships.\nWHY OTHERS ARE WRONG\nOption 1: Onboarding proactive case management is mainly a Customer Service Management capability centered on cases and requests, and it doesn't depend on mapping Information Objects to Business Applications\nOption 2: Automating events into incidents is an Event Management/lOps capability inked to monitored CIs and alerts, not to the data-object modeling that Information Objects supply.\nOption 3: Operational impact for consumer partes is addressed through Business Service and Service Offering relationships to consumers, rather than through Information Object mapping.\nOption 5: Asset lifecycle compliance in a Business Application context is driven by Asset-to-Business Application relationships and lifecycle states, not by the data-focused Information Object layer.\nMEMORY TIP\nPicture Information Objects as luggage tags attached to the data a Business Application carries, SecOps has to read those tags to know whether the bag holds something risky like PII, which is a very ifferent question from simply asking who owns or supports the application.\nSOURCES\nUsing Information Object to find PII in Applications (ServiceNow Community): https. ww servicenow.com/community/common-service-data-model-forum/using-information- object-to-find-pil-in-applications/td-p/2509770"
+    "explanation": "CORRECT ANSWER\nOption 4: The SecOps team wants to understand the operational risk in the Business Application context\nEXPERT EXPLANATION\nInformation Objects within CSDM model the data, such as PII, PI, or other technical data, that Business Applications consume or process, and mapping them out is what allows a team to assess the risk tied to that data. The SecOps team’s need to understand operational risk in the Business Application context relies directly on that information Object mapping, which is why this particular use case requires it, while most other use cases at lower CSDM maturity levels instead depend on simpler service, application, or asset relationships.\nWHY OTHERS ARE WRONG\nOption 1: Onboarding proactive case management is mainly a Customer Service Management capability centered on cases and requests, and it doesn't depend on mapping Information Objects to Business Applications\nOption 2: Automating events into incidents is an Event Management/lOps capability inked to monitored CIs and alerts, not to the data-object modeling that Information Objects supply.\nOption 3: Operational impact for consumer partes is addressed through Business Service and Service Offering relationships to consumers, rather than through Information Object mapping.\nOption 5: Asset lifecycle compliance in a Business Application context is driven by Asset-to-Business Application relationships and lifecycle states, not by the data-focused Information Object layer.\nMEMORY TIP\nPicture Information Objects as luggage tags attached to the data a Business Application carries, SecOps has to read those tags to know whether the bag holds something risky like PII, which is a very ifferent question from simply asking who owns or supports the application.\nSOURCES\nUsing Information Object to find PII in Applications (ServiceNow Community): https. ww servicenow.com/community/common-service-data-model-forum/using-information- object-to-find-pil-in-applications/td-p/2509770",
+    "sourceRecordId": "review-55",
+    "originalExamNumber": "55"
   },
   {
-    "id": "nightmare-b2-22",
+    "id": "nq1-022",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
     "number": "22",
-    "header": "Original question 22 · New batch",
+    "header": "Nightmare Questions 1 — question 22 (source exam question 22)",
     "question": "Suppose you're logged in as a CMDB Administrator and need to work through a backlog of duplicate records. Which navigation path gives you access to remediate these De-duplication Tasks?",
     "options": [
       {
@@ -1597,14 +1639,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: CMDB Workspace > Management > De-duplication Dashboard\nEXPERT EXPLANATION\nCMDB Workspace's Management tab (/now/cmdb/management) is the designated home for de-duplication remediation: it surfaces the De-duplication Dashboard for bulk processing against preconfigured templates and the De-duplication Template Library for managing per-class remediation templates. Individual legacy De-duplication Task records (dup_task) remain reachable outside the Workspace at All > Configuration > Identification/Reconciliation > De-duplication Tasks, but that list view lacks the bulk/templated remediation tooling the Workspace provides.\nWHY OTHERS ARE WRONG\nOption 2: \"All > My Groups Work > De-duplication Tasks\" is a generic group-assignment work list, not the dedicated CMDB remediation surface — many IRE-generated de-duplication tasks aren't immediately assigned to a group, so they wouldn't reliably appear there.\nOption 3: \"CMDB Admin > My Tasks\" is not a real out-of-the-box application menu; this path simply doesn't exist.\nMEMORY TIP\nCMDB Workspace > Management is the dedicated back office for duplicate cleanup; \"My Groups Work\" is just a shared inbox that occasionally happens to contain the same tickets.\nSOURCES\nDe- duplication Task Reconciliation: https://www.servicenow.com/docs/t/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html"
+    "explanation": "CORRECT ANSWER\nOption 1: CMDB Workspace > Management > De-duplication Dashboard\nEXPERT EXPLANATION\nCMDB Workspace's Management tab (/now/cmdb/management) is the designated home for de-duplication remediation: it surfaces the De-duplication Dashboard for bulk processing against preconfigured templates and the De-duplication Template Library for managing per-class remediation templates. Individual legacy De-duplication Task records (dup_task) remain reachable outside the Workspace at All > Configuration > Identification/Reconciliation > De-duplication Tasks, but that list view lacks the bulk/templated remediation tooling the Workspace provides.\nWHY OTHERS ARE WRONG\nOption 2: \"All > My Groups Work > De-duplication Tasks\" is a generic group-assignment work list, not the dedicated CMDB remediation surface — many IRE-generated de-duplication tasks aren't immediately assigned to a group, so they wouldn't reliably appear there.\nOption 3: \"CMDB Admin > My Tasks\" is not a real out-of-the-box application menu; this path simply doesn't exist.\nMEMORY TIP\nCMDB Workspace > Management is the dedicated back office for duplicate cleanup; \"My Groups Work\" is just a shared inbox that occasionally happens to contain the same tickets.\nSOURCES\nDe- duplication Task Reconciliation: https://www.servicenow.com/docs/t/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html",
+    "sourceRecordId": "nightmare-b2-22",
+    "originalExamNumber": "22"
   },
   {
-    "id": "nightmare-b2-27",
+    "id": "nq1-023",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "27",
-    "header": "Original question 27 · New batch",
+    "number": "23",
+    "header": "Nightmare Questions 1 — question 23 (source exam question 27)",
     "question": "Suppose you open a particular De-duplication Task (e.g., DUP001002) in the CMDB Workspace to resolve a conflict between two business applications, then click the Remediate button to start the resolution process. Which two options does the system offer in the “Remediate” dialog box? (Choose two)",
     "options": [
       {
@@ -1644,14 +1688,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Duplicate CI Remediator\nOption 3: Use custom remediation workflow\nEXPERT EXPLANATION\nClicking Remediate on a single De-duplication Task opens a modal offering the Duplicate CI Remediator wizard (guides Main CI selection and attribute/relationship merging) and, separately, the option to run a custom remediation workflow (an existing CMDB remediation rule, or a new one you define — often backed by Flow Designer). Two additional variants can also appear conditionally: a Duplicate CI Remediator (AI) entry that uses an Otto-powered skill to pre-select merge choices, and a Duplicate CI Remediator (Restricted Mode) entry gated by the glide.duplicate_ci_remediator.enable_restricted_mode system property — neither is part of the two options a candidate should select here.\nWHY OTHERS ARE WRONG\nOption 2: Deleting the duplicate record isn't a top-level option in this initial dialog; deletion becomes available only as an action once you're inside the Remediator wizard\nOption 4: Archiving the duplicate CI is a Data Manager/asset lifecycle policy action, not a direct option within the De-duplication remediation modal.\nMEMORY TIP\nThe Remediate dialog is a fork in the road — the guided wizard route or the custom-workflow route — with an AI-assisted shortcut and a restricted-mode variant sometimes appearing as extra, conditional signposts; “Just delete it” is a sign you won't see until further down the guided route.\nSOURCES\nDe- duplication Task Reconciliation: https://www.servicenow.com/docs/t/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html"
+    "explanation": "CORRECT ANSWER\nOption 1: Duplicate CI Remediator\nOption 3: Use custom remediation workflow\nEXPERT EXPLANATION\nClicking Remediate on a single De-duplication Task opens a modal offering the Duplicate CI Remediator wizard (guides Main CI selection and attribute/relationship merging) and, separately, the option to run a custom remediation workflow (an existing CMDB remediation rule, or a new one you define — often backed by Flow Designer). Two additional variants can also appear conditionally: a Duplicate CI Remediator (AI) entry that uses an Otto-powered skill to pre-select merge choices, and a Duplicate CI Remediator (Restricted Mode) entry gated by the glide.duplicate_ci_remediator.enable_restricted_mode system property — neither is part of the two options a candidate should select here.\nWHY OTHERS ARE WRONG\nOption 2: Deleting the duplicate record isn't a top-level option in this initial dialog; deletion becomes available only as an action once you're inside the Remediator wizard\nOption 4: Archiving the duplicate CI is a Data Manager/asset lifecycle policy action, not a direct option within the De-duplication remediation modal.\nMEMORY TIP\nThe Remediate dialog is a fork in the road — the guided wizard route or the custom-workflow route — with an AI-assisted shortcut and a restricted-mode variant sometimes appearing as extra, conditional signposts; “Just delete it” is a sign you won't see until further down the guided route.\nSOURCES\nDe- duplication Task Reconciliation: https://www.servicenow.com/docs/t/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html",
+    "sourceRecordId": "nightmare-b2-27",
+    "originalExamNumber": "27"
   },
   {
-    "id": "nightmare-b2-32",
+    "id": "nq1-024",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "32",
-    "header": "Original question 32 · New batch",
+    "number": "24",
+    "header": "Nightmare Questions 1 — question 24 (source exam question 32)",
     "question": "Which actions can be launched directly from the CMDB Workspace? [2 correct answers]",
     "options": [
       {
@@ -1691,14 +1737,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Create a CMDB Data Manager certification policy\nOption 3: Remediate duplicate CI records\nEXPERT EXPLANATION\nThe CMDB Workspace functions as the operational hub for day-to-day CI health and lifecycle activities, while structural configuration happens elsewhere. CMDB Data Manager sits directly inside the workspace, allowing an administrator to build certification policies that automate attestation, archival, and deletion as CIs age. Likewise, the workspace's De-duplication Task view lets users run the Duplicate CI Remediation tool to merge or delete redundant records flagged by the Identification and Reconciliation Engine. Both capabilities revolve around managing CI data that already exists, not defining how that data is structured.\nWHY OTHERS ARE WRONG\nOption 1: Discovery, along with its schedules, credentials, and IP ranges, runs and is managed from within the Discovery application, not the CMDB Workspace.\nOption 4: Creating or extending a CMDB class is a table-level structural change performed in the CI Class Manager, not in the workspace.\nMEMORY TIP\nPicture the CMDB Workspace as a hospital ward making its daily rounds, checking vitals, merging duplicate charts, and scheduling checkups, while the CI Class Manager is the architect's office that designed the building the ward works inside.\nSOURCES\nComponents installed with CMDB Workspace: https: ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management-<database-cmdb/installed-with-cmdb-workspace.html"
+    "explanation": "CORRECT ANSWER\nOption 2: Create a CMDB Data Manager certification policy\nOption 3: Remediate duplicate CI records\nEXPERT EXPLANATION\nThe CMDB Workspace functions as the operational hub for day-to-day CI health and lifecycle activities, while structural configuration happens elsewhere. CMDB Data Manager sits directly inside the workspace, allowing an administrator to build certification policies that automate attestation, archival, and deletion as CIs age. Likewise, the workspace's De-duplication Task view lets users run the Duplicate CI Remediation tool to merge or delete redundant records flagged by the Identification and Reconciliation Engine. Both capabilities revolve around managing CI data that already exists, not defining how that data is structured.\nWHY OTHERS ARE WRONG\nOption 1: Discovery, along with its schedules, credentials, and IP ranges, runs and is managed from within the Discovery application, not the CMDB Workspace.\nOption 4: Creating or extending a CMDB class is a table-level structural change performed in the CI Class Manager, not in the workspace.\nMEMORY TIP\nPicture the CMDB Workspace as a hospital ward making its daily rounds, checking vitals, merging duplicate charts, and scheduling checkups, while the CI Class Manager is the architect's office that designed the building the ward works inside.\nSOURCES\nComponents installed with CMDB Workspace: https: ww.servicenow.com/docs/+/washingtondc/servicenow-platform/configuration-management-<database-cmdb/installed-with-cmdb-workspace.html",
+    "sourceRecordId": "nightmare-b2-32",
+    "originalExamNumber": "32"
   },
   {
-    "id": "nightmare-b2-40",
+    "id": "nq1-025",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "40",
-    "header": "Original question 40 · New batch",
+    "number": "25",
+    "header": "Nightmare Questions 1 — question 25 (source exam question 40)",
     "question": "A CMDB Administrator intends to run the “Services Have Owners Identified” playbook in order to remediate issues shown on the CMDB Data Foundations Dashboard. Which remediation plays would be involved? (2 Answers)",
     "options": [
       {
@@ -1738,14 +1786,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Fix Data\nOption 2: Analyze Data\nEXPERT EXPLANATION\nThe \"Services Have Owners Identified\" playbook on the CMDB Data Foundations Dashboard is addressed by using the Analyze Data and Fix Data plays in combination. Analyze Data first identifies and scopes exactly which services lack an assigned owner, after which Fix Data walks the administrator through filling in the empty service owner and \"Owned by\" fields. This two-step process lets teams understand the size and location of the gap before they make corrections.\nWHY OTHERS ARE WRONG\nOption 3: Govern Data serves to establish and enforce data policies and standards going forward, rather than to analyze or directly fix existing ownership gaps for this playbook.\nOption 4: Report Data is meant to surface dashboards and metrics on data quality, not to identify or correct missing service ownership records\nMEMORY TIP\nPicture Analyze Data as the doctor running diagnostics to identify what's wrong, with Fix Data as the treatment that follows, while Govern and Report play the role of the policy manual and the results chart on the wall"
+    "explanation": "CORRECT ANSWER\nOption 1: Fix Data\nOption 2: Analyze Data\nEXPERT EXPLANATION\nThe \"Services Have Owners Identified\" playbook on the CMDB Data Foundations Dashboard is addressed by using the Analyze Data and Fix Data plays in combination. Analyze Data first identifies and scopes exactly which services lack an assigned owner, after which Fix Data walks the administrator through filling in the empty service owner and \"Owned by\" fields. This two-step process lets teams understand the size and location of the gap before they make corrections.\nWHY OTHERS ARE WRONG\nOption 3: Govern Data serves to establish and enforce data policies and standards going forward, rather than to analyze or directly fix existing ownership gaps for this playbook.\nOption 4: Report Data is meant to surface dashboards and metrics on data quality, not to identify or correct missing service ownership records\nMEMORY TIP\nPicture Analyze Data as the doctor running diagnostics to identify what's wrong, with Fix Data as the treatment that follows, while Govern and Report play the role of the policy manual and the results chart on the wall",
+    "sourceRecordId": "nightmare-b2-40",
+    "originalExamNumber": "40"
   },
   {
-    "id": "nightmare-b2-42",
+    "id": "nq1-026",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "42",
-    "header": "Original question 42 · New batch",
+    "number": "26",
+    "header": "Nightmare Questions 1 — question 26 (source exam question 42)",
     "question": "A CMDB Administrator is considering whether to track the metrics provided on the CMDB Data Foundation Dashboard. Which benefits justify the decision to continually monitor this dashboard’s results? (Choose 2)",
     "options": [
       {
@@ -1785,14 +1835,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Provides metrics on active CIs updated in the last 90 days\nOption 4: Provides metrics for CIs Processed by the IRE\nEXPERT EXPLANATION\nContinually monitoring the CMDB Data Foundation Dashboard is worthwhile because it exposes two forward-looking metrics: how many active CIs have become stale from not being updated within the last 90 days, and how many CIs have actually passed through the Identification and Reconciliation Engine (IRE). Tracking data freshness reveals records at risk of becoming inaccurate, while tracking IRE processing verifies that incoming data is being properly identified and reconciled instead of silently skipped. Together, these metrics give administrators an early warning system for stale data and reconciliation gaps before they escalate into larger CMDB health problems.\nWHY OTHERS ARE WRONG\nOption 1: A list of CIs that failed health audits fits better with the separate CMDB Health Dashboard’s Completeness, Compliance, and Correctness scorecards, rather than the Data Foundation Dashboard.\nOption 3: A full report of orphan CIs is likewise associated with the CMDB Health Dashboard's Correctness scorecard, not the Data Foundation Dashboard's core metrics\nMEMORY TIP\nPicture the Data Foundation Dashboard as a fitness tracker watching your daily habits, freshness and processing, whereas the Health Dashboard is more like the annual physical that scores completeness, compliance, and correctness.\nSOURCES\nCMDB/CSDM Foundations Dashboards (confirms \"CIs Processed via IRE\" as a real dashboard metric; the specific \"90-day update window\" framing wasn't found verbatim on this page as of this review — verify before publishing: https. www servicenow.com/docs//servicenow-platform/configuration-management-database-cmdb /csdm-cmdb-foundations-dashboards html"
+    "explanation": "CORRECT ANSWER\nOption 2: Provides metrics on active CIs updated in the last 90 days\nOption 4: Provides metrics for CIs Processed by the IRE\nEXPERT EXPLANATION\nContinually monitoring the CMDB Data Foundation Dashboard is worthwhile because it exposes two forward-looking metrics: how many active CIs have become stale from not being updated within the last 90 days, and how many CIs have actually passed through the Identification and Reconciliation Engine (IRE). Tracking data freshness reveals records at risk of becoming inaccurate, while tracking IRE processing verifies that incoming data is being properly identified and reconciled instead of silently skipped. Together, these metrics give administrators an early warning system for stale data and reconciliation gaps before they escalate into larger CMDB health problems.\nWHY OTHERS ARE WRONG\nOption 1: A list of CIs that failed health audits fits better with the separate CMDB Health Dashboard’s Completeness, Compliance, and Correctness scorecards, rather than the Data Foundation Dashboard.\nOption 3: A full report of orphan CIs is likewise associated with the CMDB Health Dashboard's Correctness scorecard, not the Data Foundation Dashboard's core metrics\nMEMORY TIP\nPicture the Data Foundation Dashboard as a fitness tracker watching your daily habits, freshness and processing, whereas the Health Dashboard is more like the annual physical that scores completeness, compliance, and correctness.\nSOURCES\nCMDB/CSDM Foundations Dashboards (confirms \"CIs Processed via IRE\" as a real dashboard metric; the specific \"90-day update window\" framing wasn't found verbatim on this page as of this review — verify before publishing: https. www servicenow.com/docs//servicenow-platform/configuration-management-database-cmdb /csdm-cmdb-foundations-dashboards html",
+    "sourceRecordId": "nightmare-b2-42",
+    "originalExamNumber": "42"
   },
   {
-    "id": "nightmare-b2-43",
+    "id": "nq1-027",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "43",
-    "header": "Original question 43 · New batch",
+    "number": "27",
+    "header": "Nightmare Questions 1 — question 27 (source exam question 43)",
     "question": "Suppose you're a CMDB Administrator tasked with improving the structural integrity of your CMDB implementation, and you want to pinpoint specific configuration gaps — custom classes that should be standard, duplicate CIs lacking identification rules, or hardware CIs missing serial numbers — that keep the CMDB from following ServiceNow best practices. Which dashboard surfaces these specific indicators to help align your CMDB?",
     "options": [
       {
@@ -1830,14 +1882,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: CMDB Data Foundations Dashboard\nEXPERT EXPLANATION\nThe CMDB Data Foundations Dashboard measures how structurally correct a CMDB implementation is against ServiceNow best practices — not the quality of individual records. It tracks indicators such as custom-class/table usage where standard classes should apply, whether integrations bypass the IRE, and whether hardware CIs have serial numbers populated, all aimed at keeping the CMDB architecturally sound so downstream capabilities (Service Mapping, CSDM reporting) work correctly\nWHY OTHERS ARE WRONG\nOption 1: The CMDB Health Dashboard instead scores individual-record quality (completeness, correctness, compliance) — eg, stale or empty fields — not class-structure or IRE architecture.\nOption 3: The CSDM Data Foundations Dashboard is scoped to Common Service Data Model relationship health (Business Service-to-Application Service-to-Infrastructure linkage), not core CI class structure.\nOption 4: The Integration Commons Dashboard tracks the performance and status of imports and integrations, such as whether an import failed, rather than the architectural health of the CMDB.\nMEMORY TIP\nThe Data Foundations Dashboard is a building inspector checking whether the house was framed to code; the Health Dashboard checks whether the rooms inside are tidy and complete.\nSOURCES\nCMDB Data Foundations Dashboard: https./www servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmd/cmdo-data-foundations-dashboard html"
+    "explanation": "CORRECT ANSWER\nOption 2: CMDB Data Foundations Dashboard\nEXPERT EXPLANATION\nThe CMDB Data Foundations Dashboard measures how structurally correct a CMDB implementation is against ServiceNow best practices — not the quality of individual records. It tracks indicators such as custom-class/table usage where standard classes should apply, whether integrations bypass the IRE, and whether hardware CIs have serial numbers populated, all aimed at keeping the CMDB architecturally sound so downstream capabilities (Service Mapping, CSDM reporting) work correctly\nWHY OTHERS ARE WRONG\nOption 1: The CMDB Health Dashboard instead scores individual-record quality (completeness, correctness, compliance) — eg, stale or empty fields — not class-structure or IRE architecture.\nOption 3: The CSDM Data Foundations Dashboard is scoped to Common Service Data Model relationship health (Business Service-to-Application Service-to-Infrastructure linkage), not core CI class structure.\nOption 4: The Integration Commons Dashboard tracks the performance and status of imports and integrations, such as whether an import failed, rather than the architectural health of the CMDB.\nMEMORY TIP\nThe Data Foundations Dashboard is a building inspector checking whether the house was framed to code; the Health Dashboard checks whether the rooms inside are tidy and complete.\nSOURCES\nCMDB Data Foundations Dashboard: https./www servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmd/cmdo-data-foundations-dashboard html",
+    "sourceRecordId": "nightmare-b2-43",
+    "originalExamNumber": "43"
   },
   {
-    "id": "nightmare-b2-48",
+    "id": "nq1-028",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "48",
-    "header": "Original question 48 · New batch",
+    "number": "28",
+    "header": "Nightmare Questions 1 — question 28 (source exam question 48)",
     "question": "If the Identification and Reconciliation Engine (IRE) processes a Discovery payload and discovers that more than one CI matches the identification criteria, which record gets selected to receive the update?",
     "options": [
       {
@@ -1875,14 +1929,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "The screenshot’s per-option explanations contradict its green answer and Overall explanation; the quiz follows the green answer and Overall explanation.",
-    "explanation": "CORRECT ANSWER\nOption 4: No CIs are updated; the payload is rejected until duplicates are manually resolved.\nEXPERT EXPLANATION\nThe Identification and Reconciliation Engine (IRE) is built around a \"never guess\" data-integrity principle. When an incoming Discovery (or other) payload matches more than one existing CI against the configured identification criteria, the match is ambiguous, and IRE will not arbitrarily choose a \"winner.\" Instead, the identification fails for that payload: no CI is inserted or updated, an IRE/identification error is logged, and the conflicting records are grouped so a de-duplication/remediation task can be raised for an administrator to review. This is intentional — automatically picking a record (by age, by last-updated timestamp, or any other heuristic) risks silently corrupting the wrong CI's history, relationships, and open tickets, so ServiceNow instead halts and surfaces the conflict for manual resolution (e.g., strengthening the Identification Rule's identifier entries or merging/retiring the duplicate CIs).\nWHY OTHERS ARE WRONG\nOption 1: IRE does not resolve ambiguous matches by picking the record most recently touched (sys_updated_on); that would risk selecting a record updated by an unrelated automated process rather than the true authoritative CI, and it is not how ambiguous-match handling works.\nOption 2: IRE does not select the oldest CI by creation date either — this option describes a plausible sounding heuristic, but no ServiceNow documentation describes IRE auto-selecting a record on ambiguous match; instead the platform declines to update any record.\nOption 3: Choosing the newest CI by creation date is likewise not documented IRE behavior, and it would be even riskier than picking the oldest, since the newest record is the least likely to be the one already tied to existing relationships and history.\nMEMORY TIP\nThink of IRE as a bank teller who won't cash a check when two accounts could match the name on it: rather than guessing which account to debit, the teller holds the transaction and escalates it for someone to verify — protecting the data instead of taking a risky guess.\nSOURCES"
+    "explanation": "CORRECT ANSWER\nOption 4: No CIs are updated; the payload is rejected until duplicates are manually resolved.\nEXPERT EXPLANATION\nThe Identification and Reconciliation Engine (IRE) is built around a \"never guess\" data-integrity principle. When an incoming Discovery (or other) payload matches more than one existing CI against the configured identification criteria, the match is ambiguous, and IRE will not arbitrarily choose a \"winner.\" Instead, the identification fails for that payload: no CI is inserted or updated, an IRE/identification error is logged, and the conflicting records are grouped so a de-duplication/remediation task can be raised for an administrator to review. This is intentional — automatically picking a record (by age, by last-updated timestamp, or any other heuristic) risks silently corrupting the wrong CI's history, relationships, and open tickets, so ServiceNow instead halts and surfaces the conflict for manual resolution (e.g., strengthening the Identification Rule's identifier entries or merging/retiring the duplicate CIs).\nWHY OTHERS ARE WRONG\nOption 1: IRE does not resolve ambiguous matches by picking the record most recently touched (sys_updated_on); that would risk selecting a record updated by an unrelated automated process rather than the true authoritative CI, and it is not how ambiguous-match handling works.\nOption 2: IRE does not select the oldest CI by creation date either — this option describes a plausible sounding heuristic, but no ServiceNow documentation describes IRE auto-selecting a record on ambiguous match; instead the platform declines to update any record.\nOption 3: Choosing the newest CI by creation date is likewise not documented IRE behavior, and it would be even riskier than picking the oldest, since the newest record is the least likely to be the one already tied to existing relationships and history.\nMEMORY TIP\nThink of IRE as a bank teller who won't cash a check when two accounts could match the name on it: rather than guessing which account to debit, the teller holds the transaction and escalates it for someone to verify — protecting the data instead of taking a risky guess.\nSOURCES",
+    "sourceRecordId": "nightmare-b2-48",
+    "originalExamNumber": "48"
   },
   {
-    "id": "nightmare-b2-53",
+    "id": "nq1-029",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "53",
-    "header": "Original question 53 · New batch",
+    "number": "29",
+    "header": "Nightmare Questions 1 — question 29 (source exam question 53)",
     "question": "Within the CSDM Data Foundations Dashboard, which tab monitors the foundational connection between the Design domain (Business Applications) and the Manage Technical Services domain (Application Services)?",
     "options": [
       {
@@ -1920,14 +1976,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 2: Crawl\nEXPERT EXPLANATION\nIn the CSDM maturity model, the Crawl phase is where an organization moves beyond a simple asset inventory and begins constructing an actual service model, most notably by linking Business Applications in the Design domain to their Application Services in the Manage Technical Services domain. It's that Consumes::Consumed By relationship that allows the platform to trace a business application like \"SAP ERP\" down to the specific “SAP Production” instance running it, forming the foundation for impact analysis and risk assessment. Without that link, IT has no reliable way to report which infrastructure actually supports a given business application, leaving gaps in compliance and disaster recovery reporting\nWHY OTHERS ARE WRONG\nOption 1: Foundation deals with more basic, static data such as Company, Department, and Location hierarchies, not the link between Business Application and Application Service.\nOption 3: Walk advances into the Technical Service layer, covering Service Offerings and Dynamic CI Groups, a step beyond the foundational connection between Business Application and Application Service.\nOption 4: Run represents advanced data maturity, such as mapping Information Objects for data privacy to Business Applications, well beyond the Crawl-level linkage described in this question\nMEMORY TIP\nThink of the maturity model as learning to walk: Foundation is just setting the basic furniture in place, Crawl is taking the first real steps by connecting what the business calls an application to the service that actually runs it, and Walk and Run become progressively more advanced from there.\nSOURCES\nCSDM Data Foundations Dashboard — tab structure: https://www.servicenow.com/docs/eundle /xanadu-servicenow-platform/page/product/csdm-implementation/concept/csdm-data-foundations-dashboard html"
+    "explanation": "CORRECT ANSWER\nOption 2: Crawl\nEXPERT EXPLANATION\nIn the CSDM maturity model, the Crawl phase is where an organization moves beyond a simple asset inventory and begins constructing an actual service model, most notably by linking Business Applications in the Design domain to their Application Services in the Manage Technical Services domain. It's that Consumes::Consumed By relationship that allows the platform to trace a business application like \"SAP ERP\" down to the specific “SAP Production” instance running it, forming the foundation for impact analysis and risk assessment. Without that link, IT has no reliable way to report which infrastructure actually supports a given business application, leaving gaps in compliance and disaster recovery reporting\nWHY OTHERS ARE WRONG\nOption 1: Foundation deals with more basic, static data such as Company, Department, and Location hierarchies, not the link between Business Application and Application Service.\nOption 3: Walk advances into the Technical Service layer, covering Service Offerings and Dynamic CI Groups, a step beyond the foundational connection between Business Application and Application Service.\nOption 4: Run represents advanced data maturity, such as mapping Information Objects for data privacy to Business Applications, well beyond the Crawl-level linkage described in this question\nMEMORY TIP\nThink of the maturity model as learning to walk: Foundation is just setting the basic furniture in place, Crawl is taking the first real steps by connecting what the business calls an application to the service that actually runs it, and Walk and Run become progressively more advanced from there.\nSOURCES\nCSDM Data Foundations Dashboard — tab structure: https://www.servicenow.com/docs/eundle /xanadu-servicenow-platform/page/product/csdm-implementation/concept/csdm-data-foundations-dashboard html",
+    "sourceRecordId": "nightmare-b2-53",
+    "originalExamNumber": "53"
   },
   {
-    "id": "nightmare-b2-55",
+    "id": "nq1-030",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "55",
-    "header": "Original question 55 · New batch",
+    "number": "30",
+    "header": "Nightmare Questions 1 — question 30 (source exam question 55)",
     "question": "When the Support Group or Managed By Group fields are left blank, which modules are responsible for creating remediation tasks?",
     "options": [
       {
@@ -1965,14 +2023,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 3: CI Class Manager and Health Preferences\nEXPERT EXPLANATION\nAn administrator uses CI Class Manager, under a class's Health settings, to mark attributes like Support group or Managed by group as required or recommended. After those attributes are flagged, it is the CMDB Health Preferences module (Health Metrics > Required/Recommended field remediation settings) that actually generates remediation tasks for any CI falling that check, and it also lets an admin set a Task Assignee Group so the generated tasks are automatically routed to the correct team. Between them, these two areas are what convert a missing Support group or Managed by group value into a tracked, assigned remediation task.\nWHY OTHERS ARE WRONG\nOption 1: Dynamic CI Groups and CMDB Groups are grouping/membership tools, they determine which CIs belong to a group, but they don't generate remediation tasks for missing group fields.\nOption 2: CMDB Workspace is simply a browsing UI and Scheduled Jobs is a general platform mechanism, neither one is the specific pair of features that defines required/recommended fields and produces their remediation tasks.\nOption 4: Technical Service Offerings paired with Dynamic CI Groups can push Support group and Managed by group values down to member CIs, but that only propagates values, it is not the CMDB Health mechanism that generates tasks when those fields are missing\nMEMORY TIP\nPicture CI Class Manager as the rulebook determining which fields are mandatory or recommended for a class, while Health Preferences acts as the referee, blowing the whistle by creating a task and assigning the team that must fix it, whenever something like Support group or Managed by group is missing\nSOURCES\nSet a CI field to be mandatory: https:/www servicenow.com/docs/r/washingtonde/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory html Set a C field to be recommended: https:/wwwservicenow.com/docs/bundle/washingtondc-servicenow-platform/page/product/configuration-management/task/t_MakingAFieldRecommended.htm!"
+    "explanation": "CORRECT ANSWER\nOption 3: CI Class Manager and Health Preferences\nEXPERT EXPLANATION\nAn administrator uses CI Class Manager, under a class's Health settings, to mark attributes like Support group or Managed by group as required or recommended. After those attributes are flagged, it is the CMDB Health Preferences module (Health Metrics > Required/Recommended field remediation settings) that actually generates remediation tasks for any CI falling that check, and it also lets an admin set a Task Assignee Group so the generated tasks are automatically routed to the correct team. Between them, these two areas are what convert a missing Support group or Managed by group value into a tracked, assigned remediation task.\nWHY OTHERS ARE WRONG\nOption 1: Dynamic CI Groups and CMDB Groups are grouping/membership tools, they determine which CIs belong to a group, but they don't generate remediation tasks for missing group fields.\nOption 2: CMDB Workspace is simply a browsing UI and Scheduled Jobs is a general platform mechanism, neither one is the specific pair of features that defines required/recommended fields and produces their remediation tasks.\nOption 4: Technical Service Offerings paired with Dynamic CI Groups can push Support group and Managed by group values down to member CIs, but that only propagates values, it is not the CMDB Health mechanism that generates tasks when those fields are missing\nMEMORY TIP\nPicture CI Class Manager as the rulebook determining which fields are mandatory or recommended for a class, while Health Preferences acts as the referee, blowing the whistle by creating a task and assigning the team that must fix it, whenever something like Support group or Managed by group is missing\nSOURCES\nSet a CI field to be mandatory: https:/www servicenow.com/docs/r/washingtonde/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory html Set a C field to be recommended: https:/wwwservicenow.com/docs/bundle/washingtondc-servicenow-platform/page/product/configuration-management/task/t_MakingAFieldRecommended.htm!",
+    "sourceRecordId": "nightmare-b2-55",
+    "originalExamNumber": "55"
   },
   {
-    "id": "nightmare-b2-56",
+    "id": "nq1-031",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "56",
-    "header": "Original question 56 · New batch",
+    "number": "31",
+    "header": "Nightmare Questions 1 — question 31 (source exam question 56)",
     "question": "Within CMDB foundational data, which three pillars capture the path from collecting data to delivering business value?",
     "options": [
       {
@@ -2010,14 +2070,16 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Ingest, Govern, and Insight\nEXPERT EXPLANATION\nIngest, Govern, and Insight describe the end-to-end flow that transforms a CMDB from a plain database into a strategic asset. Ingest covers how data gets into the system, whether through ServiceNow Discovery, Service Graph Connectors, or manual imports, with the IRE preserving integrity along the way. Govern covers the rules of the road, including Health Inclusion Rules, life cycle management via the CMDB Data Manager, and the health scorecards, while Insight is where that governed data is put to work through reporting, impact analysis, and decision support for products such as ITSM and ITOM.\nBonus Fact: These three pillars represent ServiceNow's framing for CSDM value, and they exist alongside the separate Crawl, Walk, Run, Fly maturity model, which measures how far along an organization is within each pillar rather than serving as names for the pillars themselves.\nWHY OTHERS ARE WRONG\nOption 2: Completeness, Correctness, and Compliance are the three health scorecards that sit within the Govern pillar, not the top-level pillars themselves.\nOption 3: Plan, Build, and Run is a general IT lifecycle model, not something specific to CMDB foundational data\nOption 4: Discover, Map, and Manage are technical actions carried out within ITOM, but they don't capture the complete Ingest, Govern, and Insight strategy of the foundational data model\nMEMORY TIP\nPicture an assembly line: raw materials arrive (Ingest), quality control tidies them up (Govern), and the finished product is put on display for executives to admiree (Insight)"
+    "explanation": "CORRECT ANSWER\nOption 1: Ingest, Govern, and Insight\nEXPERT EXPLANATION\nIngest, Govern, and Insight describe the end-to-end flow that transforms a CMDB from a plain database into a strategic asset. Ingest covers how data gets into the system, whether through ServiceNow Discovery, Service Graph Connectors, or manual imports, with the IRE preserving integrity along the way. Govern covers the rules of the road, including Health Inclusion Rules, life cycle management via the CMDB Data Manager, and the health scorecards, while Insight is where that governed data is put to work through reporting, impact analysis, and decision support for products such as ITSM and ITOM.\nBonus Fact: These three pillars represent ServiceNow's framing for CSDM value, and they exist alongside the separate Crawl, Walk, Run, Fly maturity model, which measures how far along an organization is within each pillar rather than serving as names for the pillars themselves.\nWHY OTHERS ARE WRONG\nOption 2: Completeness, Correctness, and Compliance are the three health scorecards that sit within the Govern pillar, not the top-level pillars themselves.\nOption 3: Plan, Build, and Run is a general IT lifecycle model, not something specific to CMDB foundational data\nOption 4: Discover, Map, and Manage are technical actions carried out within ITOM, but they don't capture the complete Ingest, Govern, and Insight strategy of the foundational data model\nMEMORY TIP\nPicture an assembly line: raw materials arrive (Ingest), quality control tidies them up (Govern), and the finished product is put on display for executives to admiree (Insight)",
+    "sourceRecordId": "nightmare-b2-56",
+    "originalExamNumber": "56"
   },
   {
-    "id": "nightmare-b2-60",
+    "id": "nq1-032",
     "source": "Nightmare Questions 1",
     "topic": "Nightmare Questions",
-    "number": "60",
-    "header": "Original question 60 · New batch",
+    "number": "32",
+    "header": "Nightmare Questions 1 — question 32 (source exam question 60)",
     "question": "A CMDB Manager wants to begin adding CSDM design and planning (design) domain components into the CMDB. Who takes part in this exercise? (2 Answers)",
     "options": [
       {
@@ -2057,13 +2119,15 @@ tr.active {
     ],
     "documentAnswerSource": "new-screenshot",
     "verificationNote": "",
-    "explanation": "CORRECT ANSWER\nOption 1: Enterprise Architect\nOption 4: Application Owner (Digital Product Owner)\nEXPERT EXPLANATION\nThe Design (Design and Planning) domain of the CSDM holds strategic, forward-looking data such as business capabilities, applications, and information objects that haven't gone live yet, and it is populated and maintained by the people who plan and own that portfolio. Enterprise Architects use these Design domain tables to make rationalization decisions and assess risk by relating business capabilities to the services and applications that support them. Application Owners — called Digital Product Owners in current CSDM terminology, which is the term used in official documentation — are responsible for their business applications’ data, including manually creating and relating application CIs such as records in cmdb_ci_business_app, which counts as core Design domain work.\nWHY OTHERS ARE WRONG\nOption 2: Business Relationship Managers typically deal with demand and the relationship between IT and the business, not with populating the Design domain's planning data\nOption 3: Application Service Owners focus on operational application services, which sit in later CSDM domains like Manage Technical Services rather than Design and Planning\nMEMORY TIP\nPicture the Design domain as the architect's blueprint table: Enterprise Architects and Application Owners are the ones sketching and signing off on the plans before a single brick of the actual service gets laid.\nSOURCES\nServiceNow Docs: CSDM conceptual model: https:/wwwservicenow.com/docs //servicenow-platform/common-service-data-model-csdm/csdm-conceptual-madel htm! ServiceNow Docs: Design domain: https:/www-servicenow.com/docs/t/servicenow-platform/common-service-data-model-csdm/design-domain html"
+    "explanation": "CORRECT ANSWER\nOption 1: Enterprise Architect\nOption 4: Application Owner (Digital Product Owner)\nEXPERT EXPLANATION\nThe Design (Design and Planning) domain of the CSDM holds strategic, forward-looking data such as business capabilities, applications, and information objects that haven't gone live yet, and it is populated and maintained by the people who plan and own that portfolio. Enterprise Architects use these Design domain tables to make rationalization decisions and assess risk by relating business capabilities to the services and applications that support them. Application Owners — called Digital Product Owners in current CSDM terminology, which is the term used in official documentation — are responsible for their business applications’ data, including manually creating and relating application CIs such as records in cmdb_ci_business_app, which counts as core Design domain work.\nWHY OTHERS ARE WRONG\nOption 2: Business Relationship Managers typically deal with demand and the relationship between IT and the business, not with populating the Design domain's planning data\nOption 3: Application Service Owners focus on operational application services, which sit in later CSDM domains like Manage Technical Services rather than Design and Planning\nMEMORY TIP\nPicture the Design domain as the architect's blueprint table: Enterprise Architects and Application Owners are the ones sketching and signing off on the plans before a single brick of the actual service gets laid.\nSOURCES\nServiceNow Docs: CSDM conceptual model: https:/wwwservicenow.com/docs //servicenow-platform/common-service-data-model-csdm/csdm-conceptual-madel htm! ServiceNow Docs: Design domain: https:/www-servicenow.com/docs/t/servicenow-platform/common-service-data-model-csdm/design-domain html",
+    "sourceRecordId": "nightmare-b2-60",
+    "originalExamNumber": "60"
   }
 ]
 </script><script>
 'use strict';
 const questions=JSON.parse(document.getElementById('quiz-data').textContent);
-const KEY='review-questions-1-text-20260926-v1';
+const KEY='nightmare-questions-1-unique-20260926-v2';
 const $=id=>document.getElementById(id);
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let state={items:{},current:questions[0].id,filter:'all'};
