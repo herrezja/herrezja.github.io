@@ -1,0 +1,1071 @@
+[
+  {
+    "id": 1,
+    "category": "CMDB Health",
+    "a": "Correctness",
+    "b": "Duplicate / Orphan / Staleness",
+    "questions": [
+      82,
+      180
+    ],
+    "correction": {
+      "note": "Q142 oznacza None, ale poprawne metryki to Duplicate, Orphan i Staleness.",
+      "url": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.html"
+    }
+  },
+  {
+    "id": 2,
+    "category": "CMDB Health",
+    "a": "Completeness",
+    "b": "Recommended and Required fields",
+    "questions": [
+      81
+    ]
+  },
+  {
+    "id": 3,
+    "category": "CMDB Health",
+    "a": "Compliance",
+    "b": "Desired State & Scripted Audits",
+    "questions": [
+      9,
+      194
+    ]
+  },
+  {
+    "id": 4,
+    "category": "CMDB Health",
+    "a": "Duplicate CIs",
+    "b": "Same physical or logical asset represented more than once",
+    "questions": [
+      181
+    ]
+  },
+  {
+    "id": 5,
+    "category": "CMDB Health",
+    "a": "Stale CIs",
+    "b": "No longer actively updated, but still in the CMDB",
+    "questions": [
+      182
+    ]
+  },
+  {
+    "id": 6,
+    "category": "CMDB Health",
+    "a": "Orphan CIs",
+    "b": "Lost logical or physical relationships to other CIs",
+    "questions": [
+      183
+    ]
+  },
+  {
+    "id": 7,
+    "category": "CMDB Health",
+    "a": "Required/Mandatory Fields",
+    "b": "Must be completed to create or update a CI record",
+    "questions": [
+      185
+    ]
+  },
+  {
+    "id": 8,
+    "category": "CMDB Health",
+    "a": "Recommended Fields",
+    "b": "Help ensure accuracy, completeness and usability",
+    "questions": [
+      184
+    ]
+  },
+  {
+    "id": 9,
+    "category": "CMDB Health",
+    "a": "Health Inclusion Rules",
+    "b": "Scope classes evaluated by KPIs",
+    "questions": [
+      15,
+      186
+    ]
+  },
+  {
+    "id": 10,
+    "category": "CMDB Health",
+    "a": "Correctness — unique-CI calculation",
+    "b": "CIs that pass ALL Correctness metrics",
+    "questions": [
+      82
+    ],
+    "correction": {
+      "note": "Q82 dotyczy obliczania na podstawie unikalnych CI. Wynik 90% w Q206 nie odpowiada tej metodzie: 7 z 10 CI przechodzi wszystkie metryki, czyli 70%. Metoda legacy może agregować wyniki inaczej.",
+      "url": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.html"
+    }
+  },
+  {
+    "id": 11,
+    "category": "CMDB Health",
+    "a": "700/800 Non-duplicate CIs",
+    "b": "100 duplicates",
+    "questions": [
+      92,
+      188
+    ]
+  },
+  {
+    "id": 12,
+    "category": "CMDB Health",
+    "a": "Orphan rules in a base system",
+    "b": "0",
+    "questions": [
+      191
+    ]
+  },
+  {
+    "id": 13,
+    "category": "CMDB Health",
+    "a": "Staleness calculation field",
+    "b": "Updated <sys_updated_on>",
+    "questions": [
+      193
+    ],
+    "correction": {
+      "note": "Q193: poprawiono sys_update_on na sys_updated_on.",
+      "url": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.html"
+    }
+  },
+  {
+    "id": 14,
+    "category": "CMDB Health",
+    "a": "Desired State audit configuration",
+    "b": "Certification Templates + Certification Filters + Audit",
+    "questions": [
+      195
+    ]
+  },
+  {
+    "id": 15,
+    "category": "CMDB Health",
+    "a": "Certification filters",
+    "b": "Class scope for audits",
+    "questions": [
+      22
+    ]
+  },
+  {
+    "id": 16,
+    "category": "CMDB Health",
+    "a": "Task creation for failed Recommended fields",
+    "b": "Health Metrics",
+    "questions": [
+      187
+    ]
+  },
+  {
+    "id": 17,
+    "category": "CMDB Health",
+    "a": "Health job execution status",
+    "b": "cmdb_health_metric_status",
+    "questions": [
+      98
+    ]
+  },
+  {
+    "id": 18,
+    "category": "CMDB Health",
+    "a": "Score generator jobs",
+    "b": "CMDB Health Settings > Scheduled Jobs",
+    "questions": [
+      14
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Data Manager",
+    "a": "Data Manager policy types",
+    "b": "Retirement / Certification / Attestation / Deletion / Archiving",
+    "questions": [
+      198
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Data Manager",
+    "a": "CI Attestation",
+    "b": "Confirmation that a CI exists",
+    "questions": [
+      205
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Data Manager",
+    "a": "Manual owner/support verification",
+    "b": "Certification/attestation policies",
+    "questions": [
+      102
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Data Manager",
+    "a": "Short-lived containers",
+    "b": "Retire, then archive/delete via life cycle policies",
+    "questions": [
+      101
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Data Manager",
+    "a": "Before using Data Manager",
+    "b": "Review and activate Life Cycle Mappings",
+    "questions": [
+      84
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Data Manager",
+    "a": "Life Cycle Mappings",
+    "b": "Legacy values → CSDM Life Cycle Stage/Status",
+    "questions": [
+      84
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Data Manager",
+    "a": "Data Manager access roles",
+    "b": "data_manager_admin / data_manager_user",
+    "questions": [
+      85
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Data Manager",
+    "a": "New Data Manager UI",
+    "b": "CMDB Workspace",
+    "questions": [
+      105
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Data Manager",
+    "a": "CSDM Life Cycle sync",
+    "b": "Enable Life Cycle Sync + resolve discrepancy report",
+    "questions": [
+      23
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Data Manager",
+    "a": "Remediation workflow reference",
+    "b": "CMDB Remediation Rule",
+    "questions": [
+      199
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Foundations Dashboards",
+    "a": "Best Practices",
+    "b": "Hardware CIs with Serial Numbers",
+    "questions": [
+      217
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Foundations Dashboards",
+    "a": "Data Management Practices",
+    "b": "CIs processed via the IRE",
+    "questions": [
+      220
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Foundations Dashboards",
+    "a": "Crawl",
+    "b": "Application Services with 'Consumes::Consumed By' relationship to Business Application",
+    "questions": [
+      218
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Foundations Dashboards",
+    "a": "Walk",
+    "b": "Dynamic CI Groups with CMDB Group",
+    "questions": [
+      216
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Foundations Dashboards",
+    "a": "Fly",
+    "b": "Information Objects with Business Application relationship",
+    "questions": [
+      219
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Foundations Dashboards",
+    "a": "Foundations indicator population",
+    "b": "Get Well jobs",
+    "questions": [
+      30
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Foundations Dashboards",
+    "a": "Foundations indicators",
+    "b": "Fixed indicators based on HealthScan definitions",
+    "questions": [
+      107
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Foundations Dashboards",
+    "a": "Remediation Playbooks",
+    "b": "Indicator rationale + detailed remediation steps",
+    "questions": [
+      126,
+      214
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Foundations Dashboards",
+    "a": "Hardware serial-number indicator scope",
+    "b": "Computer or Network Gear; installed and operational",
+    "questions": [
+      125
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Foundations Dashboards",
+    "a": "CSDM alignment checks",
+    "b": "CSDM Data Foundations Dashboard",
+    "questions": [
+      134,
+      139
+    ]
+  },
+  {
+    "id": 39,
+    "category": "CI Class Manager",
+    "a": "CI Class Manager",
+    "b": "Class hierarchy, attributes, identification and reconciliation rules",
+    "questions": [
+      39
+    ]
+  },
+  {
+    "id": 40,
+    "category": "CI Class Manager",
+    "a": "Principal Class",
+    "b": "Filters CI reference fields to relevant classes",
+    "questions": [
+      40
+    ]
+  },
+  {
+    "id": 41,
+    "category": "CI Class Manager",
+    "a": "Principal Class configuration",
+    "b": "Basic Info",
+    "questions": [
+      21
+    ]
+  },
+  {
+    "id": 42,
+    "category": "CI Class Manager",
+    "a": "Identification Rule tab",
+    "b": "Identifier entries that uniquely match CIs",
+    "questions": [
+      42,
+      161
+    ]
+  },
+  {
+    "id": 43,
+    "category": "CI Class Manager",
+    "a": "Reconciliation Rules tab",
+    "b": "Data sources authorized to update CI attributes",
+    "questions": [
+      160
+    ],
+    "correction": {
+      "note": "Q140 wskazuje Pinned Classes. Poprawna odpowiedź: Reconciliation Rules (zgodna także z Q160).",
+      "url": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.html"
+    }
+  },
+  {
+    "id": 44,
+    "category": "CI Class Manager",
+    "a": "Extensible",
+    "b": "Class can be extended by child classes",
+    "questions": [
+      43
+    ]
+  },
+  {
+    "id": 45,
+    "category": "CI Class Manager",
+    "a": "Suggested Relationships",
+    "b": "Guidance to model logical relationships",
+    "questions": [
+      44,
+      61
+    ]
+  },
+  {
+    "id": 46,
+    "category": "CI Class Manager",
+    "a": "Pinned Classes",
+    "b": "Easy return to frequently accessed classes",
+    "questions": [
+      158
+    ]
+  },
+  {
+    "id": 47,
+    "category": "CI Class Manager",
+    "a": "Class icon configuration",
+    "b": "Basic Info tab",
+    "questions": [
+      159
+    ]
+  },
+  {
+    "id": 48,
+    "category": "CI Class Manager",
+    "a": "Recommended Fields configuration",
+    "b": "Health > Completeness > Recommended Fields",
+    "questions": [
+      41
+    ]
+  },
+  {
+    "id": 49,
+    "category": "CI Class Manager",
+    "a": "Creating new CMDB classes",
+    "b": "sn_cmdb_admin AND personalize_dictionary (or admin)",
+    "questions": [
+      1
+    ]
+  },
+  {
+    "id": 50,
+    "category": "CI Class Manager",
+    "a": "Server extends Computer",
+    "b": "Computer is the parent class",
+    "questions": [
+      157
+    ]
+  },
+  {
+    "id": 51,
+    "category": "IRE & CMDB 360",
+    "a": "Identification",
+    "b": "Match incoming payloads to existing CIs or create new ones",
+    "questions": [
+      45
+    ]
+  },
+  {
+    "id": 52,
+    "category": "IRE & CMDB 360",
+    "a": "Static Reconciliation rule",
+    "b": "Source authorization and priority for updates",
+    "questions": [
+      46
+    ]
+  },
+  {
+    "id": 53,
+    "category": "IRE & CMDB 360",
+    "a": "IRE Data Source Rule",
+    "b": "Prevents inserts from an unwanted data source",
+    "questions": [
+      51
+    ]
+  },
+  {
+    "id": 54,
+    "category": "IRE & CMDB 360",
+    "a": "Dynamic and static on the same attribute",
+    "b": "Dynamic takes precedence",
+    "questions": [
+      55
+    ]
+  },
+  {
+    "id": 55,
+    "category": "IRE & CMDB 360",
+    "a": "Largest Value / Smallest Value",
+    "b": "Numeric fields only",
+    "questions": [
+      54
+    ]
+  },
+  {
+    "id": 56,
+    "category": "IRE & CMDB 360",
+    "a": "Per-source attribute payloads",
+    "b": "cmdb_multisource_data",
+    "questions": [
+      53
+    ]
+  },
+  {
+    "id": 57,
+    "category": "IRE & CMDB 360",
+    "a": "Data Source Histories",
+    "b": "cmdb_datasource_last_update",
+    "questions": [
+      50
+    ]
+  },
+  {
+    "id": 58,
+    "category": "IRE & CMDB 360",
+    "a": "Enable multisource capture",
+    "b": "glide.identification_engine.multisource_enabled",
+    "questions": [
+      52
+    ]
+  },
+  {
+    "id": 59,
+    "category": "IRE & CMDB 360",
+    "a": "CMDB 360 analytics job",
+    "b": "Multisource Dashboard Analytics Population",
+    "questions": [
+      56
+    ]
+  },
+  {
+    "id": 60,
+    "category": "IRE & CMDB 360",
+    "a": "CMDB 360 source values",
+    "b": "Retains rejected values for analysis and recompute",
+    "questions": [
+      58
+    ]
+  },
+  {
+    "id": 61,
+    "category": "IRE & CMDB 360",
+    "a": "Recompute cap per operation",
+    "b": "Approximately 100000 CIs",
+    "questions": [
+      57
+    ]
+  },
+  {
+    "id": 62,
+    "category": "IRE & CMDB 360",
+    "a": "Configuration file path",
+    "b": "Unique application instance even on the same host",
+    "questions": [
+      47
+    ]
+  },
+  {
+    "id": 63,
+    "category": "IRE & CMDB 360",
+    "a": "Good server identification example",
+    "b": "MAC/Name pair",
+    "questions": [
+      167
+    ]
+  },
+  {
+    "id": 64,
+    "category": "IRE & CMDB 360",
+    "a": "Poor application identification example",
+    "b": "Installation Directory Name",
+    "questions": [
+      166
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Ingestion",
+    "a": "ServiceNow Discovery",
+    "b": "Agentless IP-based probes and sensors via MID Server",
+    "questions": [
+      63
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Ingestion",
+    "a": "Agent Client Collector (ACC)",
+    "b": "Software utilization telemetry from endpoints",
+    "questions": [
+      64
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Ingestion",
+    "a": "Service Mapping",
+    "b": "Top-down service maps and CI relationships",
+    "questions": [
+      3
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Ingestion",
+    "a": "IntegrationHub ETL",
+    "b": "Field cleansing, mapping and automatic IRE usage",
+    "questions": [
+      62,
+      66
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Ingestion",
+    "a": "Import Sets + Transform Maps → IRE",
+    "b": "onBefore CMDBTransformUtil",
+    "questions": [
+      69,
+      173
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Ingestion",
+    "a": "CMDB integration dashboard",
+    "b": "Integration Commons for CMDB",
+    "questions": [
+      70
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Ingestion",
+    "a": "Service Builder",
+    "b": "Guided creation of technical services/offerings",
+    "questions": [
+      65
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Ingestion",
+    "a": "Weekly servers + service dependencies",
+    "b": "Discovery + Service Mapping",
+    "questions": [
+      67
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Ingestion",
+    "a": "Discovery attributes",
+    "b": "Operating System / RAM / MAC Address",
+    "questions": [
+      169
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Ingestion",
+    "a": "Third-party data integration",
+    "b": "Service Graph Connectors + IntegrationHub ETL",
+    "questions": [
+      172
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Ingestion",
+    "a": "Discovery Source: ServiceNow Discovery",
+    "b": "ServiceNow",
+    "questions": [
+      176
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Ingestion",
+    "a": "Discovery Source: Asset Management",
+    "b": "SNAssetManagement",
+    "questions": [
+      176
+    ]
+  },
+  {
+    "id": 77,
+    "category": "CSDM & relationships",
+    "a": "Application → Server",
+    "b": "Runs on::Hosts",
+    "questions": [
+      59
+    ]
+  },
+  {
+    "id": 78,
+    "category": "CSDM & relationships",
+    "a": "Application Service",
+    "b": "Deployed instance with environment/region context",
+    "questions": [
+      127
+    ]
+  },
+  {
+    "id": 79,
+    "category": "CSDM & relationships",
+    "a": "Foundational Data",
+    "b": "Users / groups / locations",
+    "questions": [
+      149
+    ]
+  },
+  {
+    "id": 80,
+    "category": "CSDM & relationships",
+    "a": "Foundational data in CIs",
+    "b": "References to common tables",
+    "questions": [
+      128
+    ]
+  },
+  {
+    "id": 81,
+    "category": "CSDM & relationships",
+    "a": "Dynamic CI Groups",
+    "b": "CMDB Groups with encoded queries",
+    "questions": [
+      130
+    ]
+  },
+  {
+    "id": 82,
+    "category": "CSDM & relationships",
+    "a": "CSDM",
+    "b": "Standard and shared set of service-related definitions",
+    "questions": [
+      152
+    ]
+  },
+  {
+    "id": 83,
+    "category": "CSDM & relationships",
+    "a": "CMDB",
+    "b": "Stores configuration records throughout their lifecycle",
+    "questions": [
+      150
+    ]
+  },
+  {
+    "id": 84,
+    "category": "CSDM & relationships",
+    "a": "Asset vs CI",
+    "b": "Financial/contractual vs operational",
+    "questions": [
+      79
+    ]
+  },
+  {
+    "id": 85,
+    "category": "CSDM & relationships",
+    "a": "Asset State",
+    "b": "CI Install Status",
+    "questions": [
+      80
+    ]
+  },
+  {
+    "id": 86,
+    "category": "CSDM & relationships",
+    "a": "CSDM approach",
+    "b": "Prescribed tables, relationships and foundational data references",
+    "questions": [
+      132
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Roles & groups",
+    "a": "Support Group",
+    "b": "Incident assignment group",
+    "questions": [
+      75,
+      215
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Roles & groups",
+    "a": "Change Group",
+    "b": "Change assignment group",
+    "questions": [
+      77,
+      215
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Roles & groups",
+    "a": "CSDM - Sync Group Attributes",
+    "b": "Syncs Support / Change / Managed By from offering to CIs",
+    "questions": [
+      7
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Roles & groups",
+    "a": "Managed By Group precedence",
+    "b": "Technical Service Offering overrides CI Class Manager",
+    "questions": [
+      76,
+      174
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Roles & groups",
+    "a": "Technical Management Offering group sync",
+    "b": "Change group / Managed by group / Support group",
+    "questions": [
+      175
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Roles & groups",
+    "a": "service_admin",
+    "b": "Manages services and offerings; contains service_author",
+    "questions": [
+      11
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Roles & groups",
+    "a": "service_owner",
+    "b": "Portfolio elements + Query Builder access",
+    "questions": [
+      12
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Roles & groups",
+    "a": "CI Analyst",
+    "b": "itil + cmdb_query_builder; maintains CIs and resolves tasks",
+    "questions": [
+      13
+    ]
+  },
+  {
+    "id": 95,
+    "category": "Roles & groups",
+    "a": "sn_cmdb_admin",
+    "b": "Highest CMDB privileges; configures health dashboards",
+    "questions": [
+      90
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Roles & groups",
+    "a": "Configuration Control Board",
+    "b": "CMDB direction and value-delivery decisions",
+    "questions": [
+      86
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Roles & groups",
+    "a": "Non-Discoverable attribute example",
+    "b": "Change Group",
+    "questions": [
+      156
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Reclassification",
+    "a": "Upgrade",
+    "b": "Hardware → Printer",
+    "questions": [
+      202
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Reclassification",
+    "a": "Downgrade",
+    "b": "Windows Server → Server",
+    "questions": [
+      203
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Reclassification",
+    "a": "Switch",
+    "b": "Linux Server → Windows Server",
+    "questions": [
+      204
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Reclassification",
+    "a": "Possible attribute/data exclusion",
+    "b": "Downgrade + Switch",
+    "questions": [
+      196
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Reclassification",
+    "a": "Upgrade disabled + Server → Windows Server",
+    "b": "Reclassification task",
+    "questions": [
+      197
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Deduplication & insight",
+    "a": "Duplicate CI Remediator",
+    "b": "Step-by-step duplicate resolution with merge/delete",
+    "questions": [
+      18
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Deduplication & insight",
+    "a": "Main CI recommendations",
+    "b": "Oldest Created / Most Relationships / Most Recent Updated",
+    "questions": [
+      35,
+      200
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Deduplication & insight",
+    "a": "Discovery finds duplicate CIs",
+    "b": "Oldest by Creation Date is updated",
+    "questions": [
+      93,
+      201
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Deduplication & insight",
+    "a": "Duplicate link field",
+    "b": "Duplicate Of",
+    "questions": [
+      94
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Deduplication & insight",
+    "a": "Dedup templates",
+    "b": "Scheduled bulk resolution per class",
+    "questions": [
+      96
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Deduplication & insight",
+    "a": "Unified Map",
+    "b": "Dependency View + Application Service maps",
+    "questions": [
+      123,
+      210
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Deduplication & insight",
+    "a": "Unified Map access",
+    "b": "CMDB Workspace Home > Quick Links",
+    "questions": [
+      19,
+      29
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Deduplication & insight",
+    "a": "Intelligent Search",
+    "b": "Natural language → CMDB Query Builder definitions",
+    "questions": [
+      111
+    ]
+  },
+  {
+    "id": 111,
+    "category": "Deduplication & insight",
+    "a": "Query Builder result exports",
+    "b": "PDF / CSV / Excel / XML",
+    "questions": [
+      26
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Deduplication & insight",
+    "a": "CMDB operational pillars",
+    "b": "Ingest / Govern / Insight",
+    "questions": [
+      24,
+      145
+    ]
+  },
+  {
+    "id": 113,
+    "category": "CMDB Health",
+    "a": "Default Staleness rule",
+    "b": "60 days",
+    "questions": [
+      143,
+      192
+    ],
+    "correction": {
+      "note": "Q143 oznacza 120 days; wyjaśnienie, Q192 i dokumentacja wskazują 60 days.",
+      "url": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.html"
+    }
+  },
+  {
+    "id": 114,
+    "category": "Ingestion",
+    "a": "Free Service Graph Connector in Q141",
+    "b": "Microsoft SCCM Service Graph Connector",
+    "questions": [
+      141
+    ],
+    "correction": {
+      "note": "Q141 oznacza Azure connector. FAQ pracownika ServiceNow potwierdza Microsoft SCCM; ograniczenia licencyjne usunięto od wersji 2.3.1.",
+      "url": "https://www.servicenow.com/community/cmdb-blog/service-graph-connector-for-microsoft-sccm-faq-and/ba-p/2275217"
+    }
+  }
+]

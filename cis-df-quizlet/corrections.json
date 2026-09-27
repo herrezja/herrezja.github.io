@@ -1,0 +1,59 @@
+{
+  "140": {
+    "correct": [
+      "C"
+    ],
+    "note": "The PDF key says Pinned Classes. Reconciliation Rules control authorized sources and update precedence.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.html"
+  },
+  "141": {
+    "correct": [
+      "C"
+    ],
+    "note": "The PDF key says Azure connector. Microsoft SCCM is the connector identified by the ServiceNow employee FAQ as free; licensing restrictions were removed from version 2.3.1.",
+    "source": "https://www.servicenow.com/community/cmdb-blog/service-graph-connector-for-microsoft-sccm-faq-and/ba-p/2275217"
+  },
+  "142": {
+    "correct": [
+      "C"
+    ],
+    "note": "The PDF key says None. Correctness includes Duplicate, Orphan and Staleness.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.html"
+  },
+  "143": {
+    "correct": [
+      "C"
+    ],
+    "note": "The PDF key says 120 days. The base staleness rule is 60 days, also stated in Q192.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.html"
+  },
+  "168": {
+    "correct": [
+      "E"
+    ],
+    "note": "The PDF labels D as correct, but its answer text names IRE Data Source Rule. This is the unlettered final option (now E); Data Refresh Rule is not the insertion-blocking rule.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/configuring-ire.html"
+  },
+  "193": {
+    "correct": [
+      "C"
+    ],
+    "note": "Corrected the field spelling from sys_update_on to sys_updated_on. The selected answer is unchanged.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.html"
+  },
+  "206": {
+    "correct": [
+      "B"
+    ],
+    "note": "For the default unique-CI calculation, 7 of 10 CIs pass all three metrics: 70%. The PDF gives 90%, which corresponds to equal-weight legacy aggregation. This test uses the default calculation described in Q82.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.html"
+  },
+  "221": {
+    "correct": [
+      "B",
+      "C"
+    ],
+    "note": "The PDF letters A,B contradict its own answer text. update_without_downgrade_enabled=true skips the class downgrade and permits attribute updates, so the correct choices are B,C.",
+    "source": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.html"
+  }
+}
